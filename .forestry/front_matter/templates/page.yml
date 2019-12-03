@@ -1,0 +1,88 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group
+  name: services
+  label: services
+  fields:
+  - type: field_group
+    name: first
+    label: first
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: faIconFirst
+      label: faIconFirst
+    - type: text
+      name: faIconSecond
+      label: faIconSecond
+    - type: number
+      name: weight
+      label: weight
+  - type: field_group
+    name: second
+    label: second
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: faIconFirst
+      label: faIconFirst
+    - type: text
+      name: faIconSecond
+      label: faIconSecond
+    - type: number
+      name: weight
+      label: weight
+  - type: field_group
+    name: third
+    label: third
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: faIconFirst
+      label: faIconFirst
+    - type: text
+      name: faIconSecond
+      label: faIconSecond
+    - type: number
+      name: weight
+      label: weight
+- type: field_group
+  name: cardlist
+  label: cardlist
+  fields:
+  - type: textarea
+    name: one
+    label: one
+  - type: text
+    name: two
+    label: two
+  - type: text
+    name: three
+    label: three
+- type: field_group
+  name: intro
+  label: intro
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: body
+    label: body
+- type: boolean
+  name: about
+  label: about
+- type: boolean
+  name: contact
+  label: contact

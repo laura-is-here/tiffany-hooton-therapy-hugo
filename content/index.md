@@ -1,0 +1,40 @@
+---
+title: Home
+services:
+  first:
+    name: "Affirming & Humanistic Therapy"
+    faIconFirst: "fa-user"
+    faIconSecond: "fa-heart"
+    weight: 1
+  second:
+    name: "For Individuals, Adolescents, & Couples"
+    faIconFirst: "fa-comments"
+    faIconSecond: "fa-users"
+    weight: 2
+  third:
+    name: "For Queer & Trans Folx"
+    faIconFirst: "fa-rainbow"
+    faIconSecond: "fa-transgender-alt"
+    weight: 3
+cardlist:
+  one: "A queer or trans person looking for support exploring identity or processing stress, trauma, or life changes."
+  two: "A transgender person, partner of a transgender person, or couple navigating the transition process."
+  three: "A queer or trans couple experiencing relational issues."
+intro:
+  title: Welcome!
+  body: |- 
+    I am a Marriage and Family Therapist Associate offering therapy in the greater Long Beach area.
+
+    If you are looking for a therapist who is queer, trans-affirming, and sex worker-allied, feel welcome to <a href="#contact" class="anchor">contact me</a> for a free consultation and we can begin the path of healing together. 
+about: true 
+contact: true
+---
+# What To Expect 
+
+My approach to therapy is humanistic, gender-affirming, and incorporates elements of cognitive therapy to challenge unhelpful or self-defeating thinking patterns.
+
+My specialty areas include working with queer, trans, and nonbinary individuals and their partners as they navigate identity, transition, and relationship issues. 
+
+## Fees
+
+My full fee is $100 per 50 minute session. I offer reduced fees on a sliding scale based on ability to pay. I am unable to accept insurance at this time.

@@ -1,0 +1,13 @@
+<section id="about-me" class="stack    bg-primary">
+    <div class="container    stack">
+        <div class="flex-container">
+            <div class="flex-container">
+                <div class="text-left">
+                    {{ with .Site.GetPage "about-me.md" }}
+                        {{ .Content | markdownify }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

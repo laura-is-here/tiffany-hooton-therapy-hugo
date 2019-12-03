@@ -1,0 +1,32 @@
+{{ define "main" }}
+<main>
+    
+    {{ partial "intro.html" . }}
+    
+    {{ if .Params.services }}
+    {{ partial "services.html" . }}
+    {{ end }}
+    
+    <section class="banner-alt">
+            <div class="container">
+                <div class="container-inner">
+                    <div class="card     bg-light    ">
+                        {{ .Content | markdownify }}
+                    </div>
+                </div>
+                {{ if .Params.cardlist }}
+                    {{ partial "card-list.html" . }}
+                {{ end }}
+            </div>
+    </section>
+    
+    {{ if .Params.about }}
+    {{ partial "about.html" . }}
+    {{ end }}
+    
+    {{ if .Params.contact }}
+    {{ partial "contact.html" . }}
+    {{ end }}
+    
+</main>
+{{ end }}

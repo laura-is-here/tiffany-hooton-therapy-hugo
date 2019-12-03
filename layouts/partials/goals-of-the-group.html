@@ -1,0 +1,9 @@
+{{ with .Site.GetPage "partner-perspectives/goals-of-the-group.md" }}
+<div id="partner-perspectives" class="banner-alt">
+    <div class="container    color-off-white">
+        <div class="container-inner">
+            {{ .Content | markdownify }}
+        </div>
+    </div>
+</div>
+{{ end }}

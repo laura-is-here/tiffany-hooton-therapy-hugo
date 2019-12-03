@@ -1,0 +1,18 @@
+<nav class="navbar "  id="navbar">
+    <button id="menu-toggler" class="nav-toggle-icon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div>Menu</div>
+        <i class="fas fa-bars"></i>
+    </button>
+    
+    <div class="nav-content" id="navbarSupportedContent">
+        <ul class="nav-links">
+            {{ range .Site.Menus.main }}
+            <li class="nav-link">
+                <a class="nav-link" href="{{ .URL }}">
+                    {{ .Name }}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</nav>

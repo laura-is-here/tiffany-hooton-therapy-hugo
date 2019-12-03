@@ -1,0 +1,33 @@
+baseURL = "https://tiffanyhootonmft.com/"
+languageCode = "en-us"
+title = "Tiffany Hooton Therapy"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    URL = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Services"
+    URL = "/#services"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    URL = "/#about-me"
+    weight = 3
+  [[menu.main]]
+    name = "Partner Perspectives"
+    URL = "/partner-perspectives/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    URL = "#contact"
+    weight = 5
+
+[params]
+  address = "851 Pine Ave, #102, Long Beach, CA 90813"
+  addressLink = "https://www.google.com/maps/place/851+Pine+Ave+%23102,+Long+Beach,+CA+90813/@33.777548,-118.194746,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd3146727b2c67:0xbe4a52b19508031!8m2!3d33.7775436!4d-118.1925573?shorturl=1"
+  phone = "714-500-7756"
+  email = "TiffanyHootonTherapy@protonmail.com"
+  psychToday = "https://www.psychologytoday.com/us/therapists/tiffany-hooton-long-beach-ca/703413?sid=5d9d09a0f10f3"
+    

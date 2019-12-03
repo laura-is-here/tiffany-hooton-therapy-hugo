@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{ $title := print .Title " | " .Site.Title }}
+        {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+        <title>{{ $title }}</title>
+        {{ hugo.Generator }}
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel="stylesheet">
+        {{ $sass := resources.Get "assets/css/main.scss" }}
+        {{ $style := $sass | toCSS | postCSS | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ $style.Permalink }}">
+        <meta name="description" content="Depressed, anxious or struggling? Learn more about person-centered, queer and gender affirming therapy in the Long Beach area.">
+        <meta property="og:title"       content="Tiffany Hooton Therapy">
+        <meta property="og:site_name"   content="Tiffany Hooton Therapy | tiffanyhootonmft.com">
+        <meta property="og:type"        content="website">
+        <meta property="og:image"       content="/assets/images/tiffscreenshot.png">
+        <meta property="og:url"         content="https://www.tiffanyhootonmft.com">
+        <meta property="og:description" content="Queer & Gender Affirming Therapy in Long Beach">
+
+        <link href="/assets/images/tifflogo.png" rel="shortcut icon" type="image/ico">
+        <script src="https://kit.fontawesome.com/ee98754881.js" crossorigin="anonymous" defer></script> 
+        <link href="https://tiffanyhootonmft.com" rel="canonical">
+    </head>
+    <body>
+        {{ partial "header.html" . }}
+        {{ block "main" . }}{{ end }}
+        {{ partial "footer.html" . }}
+        <script src="/assets/js/menutoggle.js" defer></script>
+    </body>
+</html>

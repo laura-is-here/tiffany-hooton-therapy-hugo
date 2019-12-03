@@ -3,7 +3,7 @@
         <div class="flex-container">
             <div class="flex-container">
                 <div class="text-left">
-                    {{ with .Site.GetPage "about-me.md" }}
+                    {{ with .Site.GetPage "/about-me.md" }}
                         {{ .Content | markdownify }}
                     {{ end }}
                 </div>

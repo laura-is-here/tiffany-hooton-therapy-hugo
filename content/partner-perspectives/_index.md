@@ -12,7 +12,6 @@ intro:
     *Starts January 2020. More information coming soon.*
 
     Please <a href="#contact" class="anchor">contact me</a> for more information.
-about: true 
 contact: true
 ---
 # Goals of the group

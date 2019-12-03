@@ -1,0 +1,26 @@
+{
+  "name": "tiffany-hooton-therapy-hugo",
+  "version": "1.0.0",
+  "description": "The website for Tiffany Hooton's therapy practice.",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.7.3"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laura-is-here/tiffany-hooton-therapy-hugo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laura-is-here/tiffany-hooton-therapy-hugo/issues"
+  },
+  "homepage": "https://github.com/laura-is-here/tiffany-hooton-therapy-hugo#readme"
+}

@@ -1,7 +1,7 @@
 <section class="container">
     <div class="container-inner">
-        <div class="card    bg-light    margin-top-negative">
-            <h1>{{ .Params.intro.title }}</h1>
+        <div class="card    bg-light    margin-top-negative   measure">
+            <h1 class="card-title">{{ .Params.intro.title }}</h1>
             {{ .Params.intro.body | markdownify }}
             {{ partial "navigation.html" . }}
         </div>

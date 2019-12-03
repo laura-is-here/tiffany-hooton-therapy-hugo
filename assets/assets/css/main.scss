@@ -120,6 +120,16 @@ input[type=submit]:focus {
 
 /*----------------------- $TYPOGRAPHY */
 
+small, .text-small {
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.measure > p {
+    max-width: 65ch;
+    margin: 1.5rem auto;
+}
+
 /* Headers */
 
 h1, h2, h3, h4, h5, h6,
@@ -127,7 +137,7 @@ h1, h2, h3, h4, h5, h6,
     font-weight: bold;
     font-family: Poppins, sans-serif;
     line-height: $header-line-height;
-    margin: 3rem 0 0.5rem;
+    margin: 3rem auto 0.5rem;
 }
 
 .h1 {
@@ -146,11 +156,9 @@ h1, h2, h3, h4, h5, h6,
     font-size: 1rem;
 }
 
-small, .text-small {
-    font-weight: lighter;
-    font-size: smaller;
+.card-title {
+    margin-top: 0;
 }
-
 
 
 
@@ -201,7 +209,7 @@ small, .text-small {
     @media #{$mq-large} {
         grid-template-columns: 1fr 1fr 1fr;
         margin: 0 auto;
-        grid-gap: 3rem;
+        grid-gap: 1.5rem;
     }
 }
 
@@ -545,7 +553,11 @@ small, .text-small {
     float: right;
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
-    max-width: 20vmax;
+    max-width: 10rem;
+
+    @media #{$mq-large} {
+        max-width: 15rem;
+    }
 }
 
 .border-bottom--light {
@@ -582,12 +594,13 @@ small, .text-small {
 }
 
 .banner-alt {
-    background-image: linear-gradient(hsla(240, 0%, 0%, 0.45), hsla(240, 0%, 0%, 0.2)),url("/assets/images/mountain-alt.jpg");
+    background-image: linear-gradient(hsla(240, 0%, 0%, 0.65), hsla(240, 0%, 0%, 0.3)),url("/assets/images/mountain-alt.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding: 1px;
+    color: var(--off-white);
 }
 
 .site-title {

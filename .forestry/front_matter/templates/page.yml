@@ -5,6 +5,9 @@ fields:
 - type: text
   name: title
   label: title
+- name: toggle_services
+  type: boolean
+  label: Toggle Services Section
 - type: field_group
   name: services
   label: services
@@ -57,6 +60,12 @@ fields:
     - type: number
       name: weight
       label: weight
+  showOnly:
+    field: toggle_services
+    value: true
+- name: toggle_card_list_section
+  type: boolean
+  label: Toggle Card List Section
 - type: field_group
   name: cardlist
   label: cardlist
@@ -70,6 +79,9 @@ fields:
   - type: text
     name: three
     label: three
+  showOnly:
+    field: toggle_card_list_section
+    value: true
 - type: field_group
   name: intro
   label: intro
@@ -80,11 +92,16 @@ fields:
   - type: textarea
     name: body
     label: body
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+      required: true
 - type: boolean
   name: about
-  label: about
+  label: Toggle About Section
 - type: boolean
   name: contact
-  label: contact
+  label: Toggle Contact Section
 pages:
 - content/partner-perspectives/_index.md

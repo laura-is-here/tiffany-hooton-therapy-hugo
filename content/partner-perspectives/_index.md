@@ -32,6 +32,8 @@ cardlist:
   two: ''
   three: ''
 about: false
+toggle_services: false
+toggle_card_list_section: false
 draft: true
 
 ---
@@ -39,12 +41,12 @@ draft: true
 
 ## Build Community
 
-Connect with others who understand. Donald is such a cutie.
+Connect with others who understand.
 
 ## Receive Mutual Support
 
-Help support others and receive support in return. I love Laura.
+Help support others and receive support in return.
 
 ## Cultivate Hope
 
-Learn to look forward with a sense of optimism. Watercolors are cool.
+Learn to look forward with a sense of optimism.

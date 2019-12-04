@@ -3,7 +3,7 @@
     
     {{ partial "intro.html" . }}
     
-    {{ if .Params.services }}
+    {{ if .Params.toggle_services }}
         {{ partial "services.html" . }}
     {{ end }}
     
@@ -12,7 +12,7 @@
                 <div class="container-inner   measure">
                     {{ .Content | markdownify }}
                 </div>
-                {{ if .Params.cardlist }}
+                {{ if .Params.toggle_cardlist_section }}
                     {{ partial "card-list.html" . }}
                 {{ end }}
             </div>

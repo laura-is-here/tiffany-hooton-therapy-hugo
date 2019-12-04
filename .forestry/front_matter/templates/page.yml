@@ -86,3 +86,5 @@ fields:
 - type: boolean
   name: contact
   label: contact
+pages:
+- content/partner-perspectives/_index.md

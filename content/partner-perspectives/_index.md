@@ -34,7 +34,6 @@ cardlist:
 about: false
 toggle_services: false
 toggle_card_list_section: false
-draft: true
 
 ---
 # Goals of the group

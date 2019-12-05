@@ -12,7 +12,7 @@
                 <div class="container-inner   measure">
                     {{ .Content | markdownify }}
                 </div>
-                {{ if .Params.toggle_cardlist_section }}
+                {{ if .Params.toggle_card_list_section }}
                     {{ partial "card-list.html" . }}
                 {{ end }}
             </div>

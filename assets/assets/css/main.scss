@@ -137,11 +137,7 @@ h1, h2, h3, h4, h5, h6,
     font-weight: bold;
     font-family: Poppins, sans-serif;
     line-height: $header-line-height;
-    margin: 3rem auto 0.5rem;
-
-    &:first-child {
-        margin-top: 1.15rem;
-    }
+    margin: 2.25rem auto 0.5rem;
 }
 
 .h1 {

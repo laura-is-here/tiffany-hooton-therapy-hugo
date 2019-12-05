@@ -34,12 +34,14 @@ toggle_services: true
 toggle_card_list_section: true
 
 ---
-# What To Expect 
+# What To Expect
 
-My approach to therapy is humanistic, gender-affirming, and incorporates elements of cognitive therapy to challenge unhelpful or self-defeating thinking patterns.
+My approach to therapy is humanistic, gender-affirming, and incorporates elements of cognitive therapy to challenge unhelpful or self-defeating thought patterns.
 
-My specialty areas include working with queer, trans, and nonbinary individuals and their partners as they navigate identity, transition, and relationship issues. 
+My specialty areas include working with queer, trans, and nonbinary individuals and their partners as they navigate identity, transition, and relationship issues.
 
 ## Fees
 
-My full fee is $100 per 50 minute session. I offer reduced fees on a sliding scale based on ability to pay. I am unable to accept insurance at this time.
+My full fee is $100 per 50-minute session - However, in order to help make therapy more accessible, I do offer a sliding scale starting at $65 for those with limited resources. 
+
+As an Associate, I am unable to accept insurance at this time.

@@ -7,16 +7,16 @@
 
 /* ------------------------ $GLOBALS */
 
-$theme-color: {{ .Site.Params.themeColor }};
+$theme-color: {{ .Site.Data.settings.themeColor }};
 $theme-color-muted: scale-color($theme-color, $lightness: -20%, $saturation: -10%);
-$accent-color: {{ .Site.Params.accentColor }};
+$accent-color: {{ .Site.Data.settings.accentColor }};
 $accent-color-muted: scale-color($accent-color, $lightness: -20%, $saturation: -10%);
 
-$hero-image: "{{ .Site.Params.heroImage }}";
-$body-image: "{{ .Site.Params.bodyImage }}";
+$hero-image: "{{ .Site.Data.settings.heroImage }}";
+$body-image: "{{ .Site.Data.settings.bodyImage }}";
 
-$main-font: "{{ .Site.Params.mainFont }}";
-$header-font: "{{ .Site.Params.headerFont }}";
+$main-font: "{{ .Site.Data.settings.mainFont }}";
+$header-font: "{{ .Site.Data.settings.headerFont }}";
 
 :root {
     --main-font-color: #353535;

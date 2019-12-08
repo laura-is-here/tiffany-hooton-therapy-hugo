@@ -1,13 +1,13 @@
 <section id="about-me" class="stack    bg-primary">
     <div class="container    stack">
-                <div class="text-left">
-                    <div class="right">
-                        <img src="/assets/images/tiff-image.jpg" alt="A photo of Tiffany" width="100%" class="shadow--sm">
-                        <a href="https://www.psychologytoday.com/us/therapists/tiffany-hooton-long-beach-ca/703413?sid=5d9d09a0f10f3" target="_blank" rel="noreferrer noopener" class="anchor--button--primary-muted">View my Psychology Today profile</a>
-                    </div>
-                    {{ with .Site.GetPage "/about-me.md" }}
-                        {{ .Content | markdownify }}
-                    {{ end }}
-                </div>
+        <div class="text-left">
+            <div class="right">
+                <img src="/assets/images/tiff-image.jpg" alt="A photo of Tiffany" width="100%" class="shadow--sm">
+                <a href="{{ .Site.Data.settings.psychToday }}" target="_blank" rel="noreferrer noopener" class="anchor--button--primary-muted">View my Psychology Today profile</a>
+            </div>
+            {{ with .Site.GetPage "/about-me.md" }}
+            {{ .Content | markdownify }}
+            {{ end }}
+        </div>
     </div>
 </section>

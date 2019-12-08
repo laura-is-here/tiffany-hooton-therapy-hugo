@@ -29,23 +29,23 @@
             <h4 class="card-title">Contact Information</h4>
             <p> 
                 Office:
-                <a href="https://goo.gl/maps/Smyu8Z5PBsAWsyxy6" rel="noreferrer" class="anchor">
-                    {{ .Site.Params.address }}
+                <a href="{{ .Site.Data.settings.addressLink }}" rel="noreferrer noopener" target="_blank" class="anchor">
+                    {{ .Site.Data.settings.address }}
                 </a>
             </p>
             <p>
                 Phone: 
-                <a href="tel:714-500-7756" class="anchor">
-                    {{ .Site.Params.phone }}
+                <a href="tel:{{ .Site.Data.settings.phone }}" class="anchor">
+                    {{ .Site.Data.settings.phone }}
                 </a>
             </p>
             <p>
                 Email:
-                <a class="anchor" href="mailto:tiffanyhootontherapy@protonmail.com">
-                    <small>{{ .Site.Params.email }}</small>
+                <a class="anchor" href="mailto:{{ .Site.Data.settings.email }}">
+                    <small>{{ .Site.Data.settings.email }}</small>
                 </a>
             </p>
-            <a href="https://www.psychologytoday.com/us/therapists/tiffany-hooton-long-beach-ca/703413?sid=5d9d09a0f10f3" rel="noreferrer noopener" target="_blank" class="anchor--button--primary">
+            <a href="{{ .Site.Data.settings.psychToday }}" rel="noreferrer noopener" target="_blank" class="anchor--button--primary">
                 View my Psychology Today profile
             </a>
         </div>

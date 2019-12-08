@@ -5,12 +5,15 @@ fields:
 - type: text
   name: baseURL
   label: baseURL
+  hidden: true
 - type: text
   name: languageCode
   label: languageCode
+  hidden: true
 - type: text
   name: title
   label: title
+  hidden: false
 - type: field_group
   name: menu
   label: menu
@@ -28,31 +31,31 @@ fields:
     - type: number
       name: weight
       label: weight
+  hidden: true
 - type: field_group
   name: params
-  label: params
   fields:
   - type: text
     name: address
-    label: address
+    label: Address
   - type: textarea
     name: addressLink
-    label: addressLink
+    label: Link to Map
   - type: text
     name: phone
-    label: phone
+    label: Phone Number
   - type: text
     name: email
-    label: email
+    label: Email Address
   - type: text
     name: psychToday
-    label: psychToday
+    label: Psychology Today Link
   - type: text
     name: themeColor
-    label: themeColor
+    label: Main Theme Color
   - type: text
     name: accentColor
-    label: accentColor
+    label: Accent Color
   - type: file
     name: heroImage
     label: heroImage
@@ -61,10 +64,11 @@ fields:
     label: bodyImage
   - type: text
     name: mainFont
-    label: mainFont
+    label: Main Body Font
   - type: text
     name: headerFont
-    label: headerFont
+    label: Header Font
   - type: text
     name: fontsEmbed
-    label: fontsEmbed
+    label: Google Fonts Embed Snippet
+  label: Site Configuration

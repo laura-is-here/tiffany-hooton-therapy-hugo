@@ -50,12 +50,12 @@ fields:
   - type: text
     name: psychToday
     label: Psychology Today Link
-  - type: color 
+  - type: color
     name: themeColor
     label: Main Theme Color
     config:
       color_format: Hex
-  - type: color 
+  - type: color
     name: accentColor
     label: Accent Color
     config:

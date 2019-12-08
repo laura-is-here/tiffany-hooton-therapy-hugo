@@ -7,6 +7,17 @@
 
 /* ------------------------ $GLOBALS */
 
+$theme-color: {{ .Site.Params.themeColor }};
+$theme-color-muted: scale-color($theme-color, $lightness: -20%, $saturation: -10%);
+$accent-color: {{ .Site.Params.accentColor }};
+$accent-color-muted: scale-color($accent-color, $lightness: -20%, $saturation: -10%);
+
+$hero-image: "{{ .Site.Params.heroImage }}";
+$body-image: "{{ .Site.Params.bodyImage }}";
+
+$main-font: "{{ .Site.Params.mainFont }}";
+$header-font: "{{ .Site.Params.headerFont }}";
+
 :root {
     --main-font-color: #353535;
     --off-white: hsla(192, 2%, 94%, 100%);
@@ -28,7 +39,7 @@ html {
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: $main-font, sans-serif;
     font-size: $base-font-size;
     line-height: $base-line-height;
     color: var(--main-font-color);
@@ -70,7 +81,7 @@ hr {
     border-top: none;
     border-right: none;
     border-bottom: 4px solid var(--off-white);
-    margin: 1.5rem 0.5rem;
+    margin: 0.75rem 0.5rem;
 }
 
 form {
@@ -91,7 +102,7 @@ input, textarea {
 }
 
 input[type=submit] {
-    background-color: var(--pink);
+    background-color: $theme-color;
     color: var(--off-white);
 }
 
@@ -106,7 +117,7 @@ input[type=submit]:disabled:focus {
 input[type=submit]:hover,
 input[type=submit]:active,
 input[type=submit]:focus {
-    background-color: var(--pink-muted);
+    background-color: $theme-color-muted;
 }
 
 .form-row {
@@ -135,29 +146,52 @@ small, .text-small {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: bold;
-    font-family: Poppins, sans-serif;
+    font-family: $header-font, sans-serif;
     line-height: $header-line-height;
-    margin: 2.25rem auto 0.5rem;
+    margin: 1.5rem auto 0.5rem;
+    
+    &:first-child {
+        margin: 3rem auto 0.5rem;
+    }
 }
 
-.h1 {
-    font-size: 4.24rem;
+h1, .h1 {
+    font-size: 2.07rem;
+    
+    @media #{$mq-medium} {
+        font-size: 2.48rem;
+    }
 }
 
-.h2 {
-    font-size: 2.62rem;
+h2, .h2 {
+    font-size: 1.73rem;
+    
+    @media #{$mq-medium} {
+        font-size: 2.07rem;
+    }
 }
 
-.h3 {
-    font-size: 1.62rem;
+h3, .h3 {
+    font-size: 1.44rem;
+    
+    @media #{$mq-medium} {
+        font-size: 1.73rem;
+    }
 }
 
-.h4 {
-    font-size: 1rem;
+h4, .h4 {
+    font-size: 1.2rem;
+    
+    @media #{$mq-medium} {
+        font-size: 1.44rem;
+    }
 }
 
-.card-title {
-    margin-top: 0;
+.card {
+    > h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+        margin-top: 0;
+    }
 }
 
 
@@ -273,7 +307,7 @@ h1, h2, h3, h4, h5, h6,
 
 .card {
     margin: 1.5rem 0;
-    padding: 0.5rem;
+    padding: 1.5rem;
     box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
     overflow-x: auto;
     word-wrap: normal;
@@ -291,14 +325,14 @@ h1, h2, h3, h4, h5, h6,
 .anchor {
     
     &:link {
-        color: var(--purple);
+        color: $accent-color;
         text-decoration: none;
     }
-
+    
     &:hover,
     &:active,
     &:focus {
-        color: var(--pink);
+        color: $theme-color;
     }
 }
 
@@ -311,7 +345,7 @@ h1, h2, h3, h4, h5, h6,
         padding: 0.75em 0.25rem;
         display: block;
         cursor: pointer;
-        background-color: var(--pink);
+        background-color: $theme-color;
         color: var(--off-white);
         border-radius: 10px;
     }
@@ -319,7 +353,7 @@ h1, h2, h3, h4, h5, h6,
     &:hover,
     &:active,
     &:focus {
-        background-color: var(--pink-muted);
+        background-color: $theme-color-muted;
     }
 }
 
@@ -332,7 +366,7 @@ h1, h2, h3, h4, h5, h6,
         padding: 0.75em 0.25rem;
         display: block;
         cursor: pointer;
-        background-color: var(--pink-muted);
+        background-color: $theme-color-muted;
         color: var(--off-white);
         border-radius: 10px;
     }
@@ -432,6 +466,10 @@ h1, h2, h3, h4, h5, h6,
     margin-left: -3rem;
 }
 
+.margin-top-spacer {
+    margin-top: 3rem;
+}
+
 .margin-bottom-spacer {
     margin-bottom: 7.5rem;
 }
@@ -453,7 +491,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .bg-primary {
-    background-color: var(--pink);
+    background-color: $theme-color;
     color: var(--off-white);
 }
 
@@ -462,15 +500,15 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .color-primary {
-    color: var(--pink);
+    color: $theme-color;
 }
 
 .bg-accent {
-    background-color: var(--purple);
+    background-color: $accent-color;
 }
 
 .color-accent {
-    color: var(--purple);
+    color: $accent-color;
 }
 
 .color-primary-light {
@@ -478,7 +516,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .color-primary-muted {
-    color: var(--pink-muted);
+    color: $theme-color-muted;
 }
 
 .bg-primary-light {
@@ -491,8 +529,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .bg-off-white-transparent {
-   background-color: var(--off-white-transparent);
-   color: var(--main-font-color);
+    background-color: var(--off-white-transparent);
+    color: var(--main-font-color);
 }
 
 .bg-main {
@@ -504,12 +542,12 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .bg-primary-muted {
-    background-color: var(--pink-muted);
+    background-color: $theme-color-muted;
     color: var(--main-font-color);
 }
 
 .active {
-    color: var(--pink);
+    color: $theme-color;
 }
 
 .icon-shadow {
@@ -555,7 +593,7 @@ h1, h2, h3, h4, h5, h6,
     margin-left: 0.5rem;
     margin-bottom: 0.5rem;
     max-width: 8rem;
-
+    
     @media #{$mq-large} {
         max-width: 15rem;
     }
@@ -580,8 +618,8 @@ h1, h2, h3, h4, h5, h6,
 
 .banner-main {
     color: var(--off-white);
-    background-color: var(--pink); 
-    background-image: linear-gradient(hsla(240, 0%, 0%, 0.25), hsla(240, 0%, 0%, 0.1)),url("/assets/images/waves.jpg");
+    background-color: $theme-color-muted; 
+    background-image: linear-gradient(hsla(240, 0%, 0%, 0.25), hsla(240, 0%, 0%, 0.1)),url($hero-image);
     height: 100vh;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -595,7 +633,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .banner-alt {
-    background-image: linear-gradient(hsla(240, 0%, 0%, 0.65), hsla(240, 0%, 0%, 0.3)),url("/assets/images/mountain-alt.jpg");
+    background-image: linear-gradient(hsla(240, 0%, 0%, 0.65), hsla(240, 0%, 0%, 0.3)),url($body-image);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -628,7 +666,6 @@ h1, h2, h3, h4, h5, h6,
     padding: 0.25rem;
     background-color: var(--light);
     transition: 0.3s ease-in-out;
-    border-top: 4px solid var(--pink);
     min-height: 3rem;
 }
 
@@ -647,7 +684,7 @@ h1, h2, h3, h4, h5, h6,
     &:hover,
     &:active,
     &:focus {
-        color: var(--pink);
+        color: $theme-color;
     }
     
     @media #{$mq-medium} {
@@ -694,11 +731,16 @@ h1, h2, h3, h4, h5, h6,
     text-decoration: none;
     display: block;
     padding: 0.25rem 0.5rem;
+    margin: 0.5rem;
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color: $theme-color;
+    text-decoration-thickness: 5px;
     
     &:hover,
     &:active,
     &:focus {
-        color: var(--pink);
+        color: $theme-color;
     }
 }
 

@@ -19,3 +19,15 @@ $base-font-size: 1.1rem;
 // Line-Height
 $base-line-height: 1.45;
 $header-line-height: 1.15;
+
+
+$theme-color: hsla(329, 61%, 61%, 100%) !default;
+$theme-color-muted: scale-color($theme-color, $lightness: -20%, $saturation: -10%) !default;
+$accent-color: #6C80FD !default;
+$accent-color-muted: scale-color($accent-color, $lightness: -20%, $saturation: -10%) !default;
+
+$hero-image: "/assets/images/waves.jpg" !default;
+$body-image: "/assets/images/mountains.jpg" !default;
+
+$main-font: "Lato" !default;
+$header-font: "Poppins" !default;

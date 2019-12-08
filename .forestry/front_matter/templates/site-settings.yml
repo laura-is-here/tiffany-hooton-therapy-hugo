@@ -1,0 +1,40 @@
+---
+label: Site Settings
+hide_body: true
+fields:
+- type: text
+  name: accentColor
+  label: accentColor
+- type: text
+  name: address
+  label: address
+- type: textarea
+  name: addressLink
+  label: addressLink
+- type: file
+  name: bodyImage
+  label: bodyImage
+- type: text
+  name: email
+  label: email
+- type: text
+  name: fontsEmbed
+  label: fontsEmbed
+- type: text
+  name: headerFont
+  label: headerFont
+- type: file
+  name: heroImage
+  label: heroImage
+- type: text
+  name: mainFont
+  label: mainFont
+- type: text
+  name: phone
+  label: phone
+- type: text
+  name: psychToday
+  label: psychToday
+- type: text
+  name: themeColor
+  label: themeColor

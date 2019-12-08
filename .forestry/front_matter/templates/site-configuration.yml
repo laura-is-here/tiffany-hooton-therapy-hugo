@@ -76,3 +76,5 @@ fields:
     name: fontsEmbed
     label: Google Fonts Embed Snippet
   label: Site Configuration
+pages:
+- config.toml

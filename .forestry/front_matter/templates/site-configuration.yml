@@ -1,0 +1,70 @@
+---
+label: Site Configuration
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: languageCode
+  label: languageCode
+- type: text
+  name: title
+  label: title
+- type: field_group
+  name: menu
+  label: menu
+  fields:
+  - type: field_group_list
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: URL
+      label: URL
+    - type: number
+      name: weight
+      label: weight
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: text
+    name: address
+    label: address
+  - type: textarea
+    name: addressLink
+    label: addressLink
+  - type: text
+    name: phone
+    label: phone
+  - type: text
+    name: email
+    label: email
+  - type: text
+    name: psychToday
+    label: psychToday
+  - type: text
+    name: themeColor
+    label: themeColor
+  - type: text
+    name: accentColor
+    label: accentColor
+  - type: file
+    name: heroImage
+    label: heroImage
+  - type: file
+    name: bodyImage
+    label: bodyImage
+  - type: text
+    name: mainFont
+    label: mainFont
+  - type: text
+    name: headerFont
+    label: headerFont
+  - type: text
+    name: fontsEmbed
+    label: fontsEmbed

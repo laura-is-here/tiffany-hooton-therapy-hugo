@@ -24,10 +24,16 @@ cardlist:
   three: A queer or trans couple experiencing relational issues.
 intro:
   title: Welcome!
-  body: "I am a Marriage and Family Therapist Associate offering therapy in the greater
-    Long Beach area.\n\nIf you are looking for a therapist who is queer, trans-affirming,
-    and sex worker-allied, feel welcome to <a href=\"#contact\" class=\"anchor\">contact
-    me</a> for a free consultation and we can begin the path of healing together. "
+  body: |
+    I am a Marriage and Family Therapist Associate offering therapy in the greater
+    Long Beach area. If you are looking for a therapist who is **queer, trans-affirming,
+    and sex worker-allied,** feel welcome to <a href=\"#contact\" class="anchor">contact
+    me</a> for a free consultation and we can begin the path of healing together. 
+    
+    *&mdash; Tiffany Hooton, M.S.* 
+
+    Associate Marriage & Family Therapist & Associate Professional Clinical Counsellor
+
 about: true
 contact: true
 toggle_services: true

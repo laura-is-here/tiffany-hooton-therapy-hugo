@@ -1,7 +1,9 @@
-<div id="contact" class="grid-container   text-left">
-    <form class="container-inner   grid-item--1-of-2" action="https://formspree.io/tiffanyhootontherapy@protonmail.com" method="POST">
-        <h2 class="">Need an appointment?</h2>
-        <h3>Contact Me</h3>
+<div class="container-inner">
+
+<div id="contact" class="flex-container   text-left">
+    <form class="" action="https://formspree.io/tiffanyhootontherapy@protonmail.com" method="POST">
+        <h1 class="">Need an appointment?</h1>
+        <h2>Contact Me</h2>
         <div class="form-row">
             <label for="name">First Name</label>
             <input type="text" class="" name="name" id="name" placeholder="Your First Name" required>
@@ -18,15 +20,15 @@
             <label for="message">Include a brief message to Tiffany. Please do not include any protected health information.</label>
         </div>
         <div class="form-row">
-            <textarea class="" id="message" name="message" rows="6" cols="18" placeholder="Write your message here." ></textarea>
+            <textarea class="" id="message" name="message" rows="6" cols="12" placeholder="Write your message here." ></textarea>
         </div>
         <div class="form-row">
             <input type="submit" class="" value="Send">
         </div>
     </form>
-    <div class="stack    grid-item--2-of-2">
+    <div class="stack    ">
         <div class="card   bg-light">
-            <h4 class="card-title">Contact Information</h4>
+            <h3 class="card-title">Contact Information</h3>
             <p> 
                 Office:
                 <a href="{{ .Site.Data.settings.addressLink }}" rel="noreferrer noopener" target="_blank" class="anchor">
@@ -42,15 +44,20 @@
             <p>
                 Email:
                 <a class="anchor" href="mailto:{{ .Site.Data.settings.email }}">
-                    <small>{{ .Site.Data.settings.email }}</small>
+                    {{ .Site.Data.settings.email }}
                 </a>
             </p>
-            <a href="{{ .Site.Data.settings.psychToday }}" rel="noreferrer noopener" target="_blank" class="anchor--button--primary">
-                View my Psychology Today profile
-            </a>
+            <div class="">
+                <figure class="">
+                    <img src="/assets/images/tiff-image.jpg" alt="A photo of Tiffany" height="300px" class="shadow--sm">
+                </figure>
+                <a href="{{ .Site.Data.settings.psychToday }}" rel="noreferrer noopener" target="_blank" class="anchor--button--primary-muted">
+                    View my Psychology Today profile
+                </a>
+            </div>
         </div>
         <div class="card   bg-light">
-            <h4 class="card-title">Associate Registration & Supervision</h4>
+            <h3 class="card-title">Associate Registration & Supervision</h3>
             <p>
                 AMFT #115397 | APCC #6793
             </p>
@@ -59,4 +66,5 @@
             </p>
         </div>
     </div>
+</div>
 </div>

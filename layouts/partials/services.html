@@ -1,44 +1,44 @@
-<section id="services" class="container-inner    color-primary   stack">
-    <h1 class="color-primary">My Services</h1>
-    <div class="grid-container    margin-bottom-spacer">
-        <div class="grid-item--1-of-3    margin-top-spacer">
+<section id="services" class="full-bleed    shadow--sm    bg-primary">
+    <h1 class="color-light">My Services</h1>
+    <div class="flex-container    ">
+        <div class="card     bg-primary-muted color-light">
             <div class="flex-column">
                 <span class="fa-stack fa-2x     margin-left-negative-small">
                     <i class="fas fa-circle fa-stack-2x    icon-shadow"></i> 
-                    <i class="fas {{ .Params.services.first.faIconFirst }} fa-stack-1x fa-inverse"></i>
+                    <i class="fas {{ .Params.services.first.faIconFirst }} fa-stack-1x color-primary"></i>
                 </span>
                 <span class="fa-stack fa-2x     margin-top-negative-small margin-right-negative-small">
                     <i class="fas fa-circle fa-stack-2x    icon-shadow"></i> 
-                    <i class="fas {{ .Params.services.first.faIconSecond}} fa-stack-1x fa-inverse"></i>
+                    <i class="fas {{ .Params.services.first.faIconSecond}} fa-stack-1x color-accent"></i>
                 </span>
+                <h2 class="">{{ .Params.services.first.name }}</h2>
             </div>
-            <h2>{{ .Params.services.first.name }}</h2>
         </div>
-        <div class="grid-item--2-of-3    margin-top-spacer">
+        <div class="card    bg-accent   color-light">
             <div class="flex-column">
                 <span class="fa-stack fa-2x     margin-left-negative-small">
                     <i class="fas fa-circle fa-stack-2x     icon-shadow"></i> 
-                    <i class="fas {{ .Params.services.second.faIconFirst }} fa-stack-1x fa-inverse"></i>
+                    <i class="fas {{ .Params.services.second.faIconFirst }} fa-stack-1x color-accent"></i>
                 </span>
                 <span class="fa-stack fa-2x     margin-top-negative-small margin-right-negative-small">
                     <i class="fas fa-circle fa-stack-2x     icon-shadow"></i> 
-                    <i class="fas {{ .Params.services.second.faIconSecond }} fa-stack-1x fa-inverse"></i>
+                    <i class="fas {{ .Params.services.second.faIconSecond }} fa-stack-1x color-primary"></i>
                 </span>
             </div>
-            <h2>{{ .Params.services.second.name }}</h2>
+            <h2 class="">{{ .Params.services.second.name }}</h2>
         </div>
-        <div class="grid-item--3-of-3     margin-top-spacer">
+        <div class="card    bg-primary-muted    color-light">
             <div class="flex-column">
                 <span class="fa-stack fa-2x     margin-left-negative-small">
                     <i class="fas fa-circle fa-stack-2x     icon-shadow"></i> 
-                    <i class="fas {{ .Params.services.third.faIconFirst }} fa-stack-1x fa-inverse"></i>
+                    <i class="fas {{ .Params.services.third.faIconFirst }} fa-stack-1x color-primary"></i>
                 </span>
                 <span class="fa-stack fa-2x     margin-top-negative-small margin-right-negative-small">
                     <i class="fas fa-circle fa-stack-2x    icon-shadow"></i> 
-                    <i class="fas {{ .Params.services.third.faIconSecond }} fa-stack-1x fa-inverse"></i>
+                    <i class="fas {{ .Params.services.third.faIconSecond }} fa-stack-1x color-accent"></i>
                 </span>
             </div>
-            <h2>{{ .Params.services.third.name }}</h2>
+            <h2 class="">{{ .Params.services.third.name }}</h2>
         </div>
     </div>
 </section>

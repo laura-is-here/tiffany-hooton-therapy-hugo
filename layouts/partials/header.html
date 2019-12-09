@@ -1,7 +1,9 @@
-<header class="banner-main" id="site-title">
-    <div class="container   margin-bottom-spacer">
-        <h1 class="site-title">Queer & Gender Affirming Therapy</h1>
-        <hr>
-        <h2 class="site-title">Tiffany Hooton, M.S.<span class="text-small"><br>Associate Marriage & Family Therapist<br>Associate Professional Clinical Counsellor</span></h2>
+<header class="banner-main    color-off-white    border-bottom--primary" id="site-title">
+{{ partial "navigation.html" . }}
+    <div class="grid-container    no-gutters">
+        <div class="grid-item--1-of-2     card     text-left    bg-primary-muted-transparent">
+            <h1 class="card-title">{{ .Params.intro.title }}</h1>
+            {{ .Params.intro.body | markdownify }}
+        </div>
     </div>
 </header>

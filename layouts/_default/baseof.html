@@ -5,9 +5,11 @@
         {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
         <title>{{ $title }}</title>
         {{ hugo.Generator }}
-        {{ .Params.fontsEmbed }}
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href="https://fonts.googleapis.com/css?family=Quicksand|Nunito&display=swap" rel="stylesheet">
+
         {{ $sassTemplate := resources.Get "assets/css/main.scss" }}
         {{ $sass := $sassTemplate | resources.ExecuteAsTemplate "assets/css/main.scss" . }}
         {{ $style := $sass | toCSS | postCSS | minify | fingerprint }}

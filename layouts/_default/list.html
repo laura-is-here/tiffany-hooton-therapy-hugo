@@ -1,13 +1,11 @@
 {{ define "main" }}
 <main>
     
-    {{ partial "intro.html" . }}
     
+    <section class="">
     {{ if .Params.toggle_services }}
         {{ partial "services.html" . }}
     {{ end }}
-    
-    <section class="banner-alt">
             <div class="container">
                 <div class="container-inner   measure">
                     {{ .Content | markdownify }}

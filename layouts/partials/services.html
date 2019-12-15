@@ -1,7 +1,8 @@
-<section id="services" class="full-bleed    shadow--sm    bg-primary">
+<section id="services" class="">
     <h1 class="color-light">My Services</h1>
-    <div class="flex-container    ">
-        <div class="card     bg-primary-muted color-light">
+    <div class="slide__overlay">Swipe, scroll, or use the arrow keys to navigate</div>
+    <div class="slider   shadow--sm   rounded">
+        <div class="card     flex-column    slide    bg-primary   color-light     " id="slide-1" tabindex="0">
             <div class="flex-column">
                 <span class="fa-stack fa-2x     margin-left-negative-small">
                     <i class="fas fa-circle fa-stack-2x    icon-shadow"></i> 
@@ -14,7 +15,7 @@
                 <h2 class="">{{ .Params.services.first.name }}</h2>
             </div>
         </div>
-        <div class="card    bg-accent   color-light">
+        <div class="card    flex-column    slide     bg-accent   color-light    " id="slide-2" tabindex="0">
             <div class="flex-column">
                 <span class="fa-stack fa-2x     margin-left-negative-small">
                     <i class="fas fa-circle fa-stack-2x     icon-shadow"></i> 
@@ -27,7 +28,7 @@
             </div>
             <h2 class="">{{ .Params.services.second.name }}</h2>
         </div>
-        <div class="card    bg-primary-muted    color-light">
+        <div class="card    flex-column    slide    bg-primary    color-light    " id="slide-3" tabindex="0">
             <div class="flex-column">
                 <span class="fa-stack fa-2x     margin-left-negative-small">
                     <i class="fas fa-circle fa-stack-2x     icon-shadow"></i> 

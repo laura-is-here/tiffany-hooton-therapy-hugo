@@ -1,9 +1,14 @@
-<header class="banner-main    color-off-white    border-bottom--primary" id="site-title">
+<header class="banner-main   color-off-white    " id="site-title">
 {{ partial "navigation.html" . }}
     <div class="grid-container    no-gutters">
-        <div class="grid-item--1-of-2     card     text-left    bg-primary-muted-transparent">
+        <div class="grid-item--1-of-2     padding-x--lg   text-left    bg-primary-muted-transparent    fadeInLeftBig    animated">
             <h1 class="card-title">{{ .Params.intro.title }}</h1>
             {{ .Params.intro.body | markdownify }}
+        </div>
+        <div class="grid-item--2-of-2">
+        {{ if .Params.toggle_services }}
+            {{ partial "services.html" . }}
+        {{ end }}
         </div>
     </div>
 </header>

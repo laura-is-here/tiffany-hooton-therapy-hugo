@@ -28,8 +28,8 @@ $theme-color-muted-transparent: scale-color($theme-color-muted, $alpha: -50%);
 $accent-color: #B53471 !default;
 $accent-color-muted: scale-color($accent-color, $lightness: -20%, $saturation: -10%) !default;
 
-$hero-image: "/assets/images/raw/waves.jpg" !default;
-$body-image: "/assets/images/raw/mountains.jpg" !default;
+$hero-image: "/assets/images/wave.svg" !default;
+$body-image: "/assets/images/mountains.jpg" !default;
 
 $main-font: "Lato" !default;
 $header-font: "Poppins" !default;

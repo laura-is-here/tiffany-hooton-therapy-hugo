@@ -28,7 +28,7 @@ intro:
     Long Beach area.\n\nIf you are looking for a therapist who is queer, trans-affirming,
     and sex worker-allied, feel welcome to <a href=\"#contact\" class=\"anchor\">contact
     me</a> for a free consultation and we can begin the path of healing together. "
-about: true
+about: true 
 contact: true
 toggle_services: true
 toggle_card_list_section: true

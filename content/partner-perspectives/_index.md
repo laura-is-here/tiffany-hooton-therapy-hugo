@@ -31,21 +31,21 @@ cardlist:
   one: ''
   two: ''
   three: ''
-about: false
+about: false 
 toggle_services: false
 toggle_card_list_section: false
 
 ---
-# Goals of the group
+## Goals of the group
 
-## Build Community
+### Build Community
 
 Connect with others who understand.
 
-## Receive Mutual Support
+### Receive Mutual Support
 
 Help support others and receive support in return.
 
-## Cultivate Hope
+### Cultivate Hope
 
 Learn to look forward with a sense of optimism.

@@ -7,9 +7,7 @@
 
 /* ------------------------ $GLOBALS */
 
-$theme-color: {{ .Site.Data.settings.themeColor }};
 $theme-color-muted: scale-color($theme-color, $lightness: -20%, $saturation: -10%);
-$accent-color: {{ .Site.Data.settings.accentColor }};
 $accent-color-muted: scale-color($accent-color, $lightness: -20%, $saturation: -10%);
 
 $hero-image: "{{ .Site.Data.settings.heroImage }}";

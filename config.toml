@@ -1,6 +1,7 @@
 baseURL = "https://tiffanyhootonmft.com/"
 languageCode = "en-us"
 title = "Tiffany Hooton Therapy"
+enableRobotsTXT = "true"
 [[menu.main]]
 URL = "/"
 name = "Home"

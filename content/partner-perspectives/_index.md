@@ -31,21 +31,29 @@ cardlist:
   one: ''
   two: ''
   three: ''
-about: false 
+about: false
 toggle_services: false
 toggle_card_list_section: false
 
 ---
-## Goals of the group
+## Why go to therapy when your partner is trans?
 
-### Build Community
+When your partner comes out as transgender, it's easy to believe that *they* are the one who needs therapy; however, transition can be a huge shift in the dynamic of your relationship. As a partner of a trans person there are many steps you can take to best support your trans partner and, of course, yourself!
 
-Connect with others who understand.
+### Build Community with Others Navigating a Partner's Gender Transition
 
-### Receive Mutual Support
+Wondering what to do when your partner comes out as trans? You're not the only one! There are entire forums dedicated to this question, and for good reason —  there is no one-size-fits-all answer.
 
-Help support others and receive support in return.
+Other partners of trans people have had to answer many of the same questions you likely now have. While there is no single answer, others who have been through these transitions are uniquely positioned to help you as you process the feelings that arise in the wake of your partner's transition.
 
-### Cultivate Hope
+Building these relationships is particularly important for those with little to experience with the LGBT community or being a partner in an LGBT couple. These relationships help to normalize your experience and quell some of the anxieties that arise from feeling outside of your comfort zone. 
 
-Learn to look forward with a sense of optimism.
+### Learn How to Support Your Trans Partner and Ask for Support
+
+Navigating a partner's transition can be difficult. It's a time where both you and your partner face important questions about yourselves, your desires, and your relationship.
+
+When confronted with these questions, it is imperative to treat yourself and your partner with love, compassion, and respect. Being attentive and responsive to both of your needs for support is especially important in those times when you feel challenged in your relationship.
+
+### Cultivate Hope for Your Relationship
+
+Learn to look forward with a sense of optimism. Despite some of our wishes and instincts to preserve the status quo in our relationships, we all must understand that relationships change. This is true whether you are a partner of a trans person or not.

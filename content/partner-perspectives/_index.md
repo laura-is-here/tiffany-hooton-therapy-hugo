@@ -36,9 +36,11 @@ toggle_services: false
 toggle_card_list_section: false
 
 ---
+# Therapy for partners of trans people
+
 ## Why go to therapy when your partner is trans?
 
-When your partner comes out as transgender, it's easy to believe that *they* are the one who needs therapy; however, transition can be a huge shift in the dynamic of your relationship. As a partner of a trans person there are many steps you can take to best support your trans partner and, of course, yourself!
+When your partner comes out as transgender, it's easy to believe that _they_ are the one who needs therapy; however, transition can be a huge shift in the dynamic of your relationship. As a partner of a trans person there are many steps you can take to best support your trans partner and, of course, yourself!
 
 ### Build Community with Others Navigating a Partner's Gender Transition
 
@@ -46,7 +48,7 @@ Wondering what to do when your partner comes out as trans? You're not the only o
 
 Other partners of trans people have had to answer many of the same questions you likely now have. While there is no single answer, others who have been through these transitions are uniquely positioned to help you as you process the feelings that arise in the wake of your partner's transition.
 
-Building these relationships is particularly important for those with little to experience with the LGBT community or being a partner in an LGBT couple. These relationships help to normalize your experience and quell some of the anxieties that arise from feeling outside of your comfort zone. 
+Building these relationships is particularly important for those with little to experience with the LGBT community or being a partner in an LGBT couple. These relationships help to normalize your experience and quell some of the anxieties that arise from feeling outside of your comfort zone.
 
 ### Learn How to Support Your Trans Partner and Ask for Support
 

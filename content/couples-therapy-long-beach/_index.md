@@ -2,7 +2,7 @@
 title: Couples Therapy
 intro:
   toggle: true
-  title: 'Couples therapy: something we''re taught to dread'
+  title: ''
   body: ''
 contact: true
 services:

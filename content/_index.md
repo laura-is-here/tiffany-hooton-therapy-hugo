@@ -44,15 +44,16 @@ menuName: main
 
 ### Transgender and Gender-affirming Therapy
 
-
 ## What To Expect from Therapy
 
-My approach to therapy is humanistic, gender-affirming, and incorporates elements of cognitive therapy to challenge unhelpful or self-defeating thought patterns.
+My approach to therapy is _humanistic, gender-affirming_, and incorporates elements of _cognitive_ and _narrative therapy_ to challenge ways of thinking and internalized messages which negatively affect our views of ourselves, others, and our world. 
 
-My specialty areas include working with queer, trans, and nonbinary individuals and their partners as they navigate identity, transition, and relationship issues.
+In the therapy office, I typically take on a role that is collaborative, active, and engaged, although I tend to avoid leading the session. This is because I believe that therapy centers on _you._ In our hour together, you get the power to decide where the session goes. 
+
+My specialty areas include working with queer, trans, and nonbinary individuals and their partners as they navigate identity, transition, relationship issues, and beyond.
 
 ### Fees
 
-My full fee is $100 per 50-minute session - However, in order to help make therapy more accessible, I do offer a sliding scale starting at $65 for those with limited resources. 
+My full fee is $100 per 50-minute session - HOWEVER in order to help make therapy more accessible, I do offer a sliding scale starting at $60 for those with limited resources.
 
-As an Associate, I am unable to accept insurance at this time.
+_While I wish to make my services as accessible as possible, as an Associate therapist I am unable to accept insurance at this time._

@@ -1,6 +1,7 @@
 ---
 label: Page
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
@@ -67,7 +68,7 @@ fields:
 - name: toggle_card_list_section
   type: boolean
   label: Toggle Card List Section
-  hidden: true
+  hidden: false
 - type: field_group
   name: cardlist
   label: cardlist
@@ -82,23 +83,24 @@ fields:
     name: three
     label: three
   showOnly:
-    field: toggle_card_list_section
-    value: true
+    value: false
+  hidden: true
 - type: field_group
   name: intro
-  label: intro
   fields:
   - type: text
     name: title
-    label: title
+    label: Intro Title
+    default: 'false'
   - type: textarea
     name: body
-    label: body
     config:
       wysiwyg: true
       schema:
         format: markdown
       required: true
+    label: Intro Body
+  label: Intro Section
 - type: boolean
   name: about
   label: Toggle About Section

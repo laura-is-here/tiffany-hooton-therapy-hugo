@@ -1,18 +1,19 @@
-<<<<<<< HEAD
-<header class="banner-main    color-off-white" id="site-title">
-=======
 <header class="banner-main   color-off-white    " id="site-title">
->>>>>>> 87ccf57d3d3fee13a197bdcf588d31557a59fc88
-{{ partial "navigation.html" . }}
-    <div class="grid-container    no-gutters">
-        <div class="grid-item--1-of-2     padding-x--lg   text-left    bg-primary-muted-transparent    fadeInLeftBig    animated">
-            <h1 class="card-title">{{ .Params.intro.title }}</h1>
-            {{ .Params.intro.body | markdownify }}
+    <div class="container   padding--lg">
+        <hr>
+        {{ partial "navigation.html" . }}
+        <p class="h3">
+            Affirming Therapy<br><span class="text-small   h4">with Tiffany Hooton</span></p>
+            <hr>
+            <div class="fadeInLeftBig animated       measure    ">
+                <p class="h1    ">{{ .Params.intro.title }}</p>
+                {{ .Params.intro.body | markdownify }}
+                <div class="container">
+                    <a href="#contact" class="anchor--button--primary">
+                        Contact Me for a Free Consultation 
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="grid-item--2-of-2">
-        {{ if .Params.toggle_services }}
-            {{ partial "services.html" . }}
-        {{ end }}
-        </div>
-    </div>
-</header>
+    </header>
+    

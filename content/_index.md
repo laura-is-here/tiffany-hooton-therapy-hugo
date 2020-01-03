@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Affirming Therapy in Long Beach
 services:
   first:
     name: Affirming & Humanistic Therapy
@@ -23,30 +23,33 @@ cardlist:
     the transition process.
   three: A queer or trans couple experiencing relational issues.
 intro:
-  title: Welcome!
+  title: Welcome! 
   body: |
-    I am a Marriage and Family Therapist Associate offering therapy in the greater
-    Long Beach area. If you are looking for a therapist who is **queer, trans-affirming,
-    and sex worker-allied,** feel welcome to <a href=\"#contact\" class="anchor">contact
-    me</a> for a free consultation and we can begin the path of healing together. 
+    I am a Marriage and Family Therapist Associate offering therapy in the greater Long Beach area.
     
-    *&mdash; Tiffany Hooton, M.S.* 
-
-    Associate Marriage & Family Therapist & Associate Professional Clinical Counsellor
-
-about: true
+    If you are looking for a therapist who is queer, committed to serving the LGBT community, trans-affirming, and sex worker-allied, feel welcome to contact me for a free consultation and we can begin the path of healing together.
+about: true 
 contact: true
 toggle_services: true
 toggle_card_list_section: true
 
 ---
-# What To Expect
+## Therapy for All
+
+### Therapy for LGBT Couples
+
+### Therapy for Anxiety & Depression
+
+### Transgender and Gender-affirming Therapy
+
+
+## What To Expect from Therapy
 
 My approach to therapy is humanistic, gender-affirming, and incorporates elements of cognitive therapy to challenge unhelpful or self-defeating thought patterns.
 
 My specialty areas include working with queer, trans, and nonbinary individuals and their partners as they navigate identity, transition, and relationship issues.
 
-## Fees
+### Fees
 
 My full fee is $100 per 50-minute session - However, in order to help make therapy more accessible, I do offer a sliding scale starting at $65 for those with limited resources. 
 

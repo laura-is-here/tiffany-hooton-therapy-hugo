@@ -1,8 +1,14 @@
 <section id="services" class="">
-    <h1 class="color-light">My Services</h1>
-    <div class="slide__overlay">Swipe, scroll, or use the arrow keys to navigate</div>
-    <div class="slider   shadow--sm   rounded">
-        <div class="card     flex-column    slide    bg-primary   color-light     " id="slide-1" tabindex="0">
+
+    <h2 class="h1">My Services</h2>
+
+
+
+    <div class="grid-container">
+
+
+
+        <div class="card     flex-column    bg-primary">
             <div class="flex-column">
                 <span class="fa-stack fa-2x     margin-left-negative-small">
                     <i class="fas fa-circle fa-stack-2x    icon-shadow"></i> 
@@ -10,25 +16,33 @@
                 </span>
                 <span class="fa-stack fa-2x     margin-top-negative-small margin-right-negative-small">
                     <i class="fas fa-circle fa-stack-2x    icon-shadow"></i> 
-                    <i class="fas {{ .Params.services.first.faIconSecond}} fa-stack-1x color-accent"></i>
+                    <i class="fas {{ .Params.services.first.faIconSecond}} fa-stack-1x color-primary"></i>
                 </span>
-                <h2 class="">{{ .Params.services.first.name }}</h2>
+                <h3 class="h4">{{ .Params.services.first.name }}</h3>
             </div>
         </div>
-        <div class="card    flex-column    slide     bg-accent   color-light    " id="slide-2" tabindex="0">
+
+
+
+
+        <div class="card    flex-column    bg-primary" >
             <div class="flex-column">
                 <span class="fa-stack fa-2x     margin-left-negative-small">
                     <i class="fas fa-circle fa-stack-2x     icon-shadow"></i> 
-                    <i class="fas {{ .Params.services.second.faIconFirst }} fa-stack-1x color-accent"></i>
+                    <i class="fas {{ .Params.services.second.faIconFirst }} fa-stack-1x color-primary"></i>
                 </span>
                 <span class="fa-stack fa-2x     margin-top-negative-small margin-right-negative-small">
                     <i class="fas fa-circle fa-stack-2x     icon-shadow"></i> 
                     <i class="fas {{ .Params.services.second.faIconSecond }} fa-stack-1x color-primary"></i>
                 </span>
             </div>
-            <h2 class="">{{ .Params.services.second.name }}</h2>
+            <h3 class="h4">{{ .Params.services.second.name }}</h3>
         </div>
-        <div class="card    flex-column    slide    bg-primary    color-light    " id="slide-3" tabindex="0">
+
+
+
+
+        <div class="card    flex-column    bg-primary    ">
             <div class="flex-column">
                 <span class="fa-stack fa-2x     margin-left-negative-small">
                     <i class="fas fa-circle fa-stack-2x     icon-shadow"></i> 
@@ -36,10 +50,16 @@
                 </span>
                 <span class="fa-stack fa-2x     margin-top-negative-small margin-right-negative-small">
                     <i class="fas fa-circle fa-stack-2x    icon-shadow"></i> 
-                    <i class="fas {{ .Params.services.third.faIconSecond }} fa-stack-1x color-accent"></i>
+                    <i class="fas {{ .Params.services.third.faIconSecond }} fa-stack-1x color-primary"></i>
                 </span>
             </div>
-            <h2 class="">{{ .Params.services.third.name }}</h2>
+            <h3 class="h4">{{ .Params.services.third.name }}</h3>
         </div>
+
+
+
     </div>
+
+
+
 </section>

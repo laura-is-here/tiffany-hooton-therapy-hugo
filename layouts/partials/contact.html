@@ -1,70 +1,72 @@
-<div class="container-inner">
-
-<div id="contact" class="flex-container   text-left">
-    <form class="" action="https://formspree.io/tiffanyhootontherapy@protonmail.com" method="POST">
-        <h1 class="">Need an appointment?</h1>
-        <h2>Contact Me</h2>
-        <div class="form-row">
-            <label for="name">First Name</label>
-            <input type="text" class="" name="name" id="name" placeholder="Your First Name" required>
-        </div>
-        <div class="form-row">
-            <label for="email">Email Address</label>
-            <input type="email" class="" id="email" name="_replyto" placeholder="name@example.com">
-        </div>
-        <div class="form-row">
-            <label for="phone">Phone Number</label>
-            <input type="tel" class="form-control" id="phone" name="phone" placeholder="111-222-3333" required>
-        </div>
-        <div class="form-row">
-            <label for="message">Include a brief message to Tiffany. Please do not include any protected health information.</label>
-        </div>
-        <div class="form-row">
-            <textarea class="" id="message" name="message" rows="6" cols="12" placeholder="Write your message here." ></textarea>
-        </div>
-        <div class="form-row">
-            <input type="submit" class="" value="Send">
-        </div>
-    </form>
-    <div class="stack    ">
-        <div class="card   bg-light">
-            <h3 class="card-title">Contact Information</h3>
-            <p> 
-                Office:
-                <a href="{{ .Site.Data.settings.addressLink }}" rel="noreferrer noopener" target="_blank" class="anchor">
-                    {{ .Site.Data.settings.address }}
-                </a>
-            </p>
-            <p>
-                Phone: 
-                <a href="tel:{{ .Site.Data.settings.phone }}" class="anchor">
-                    {{ .Site.Data.settings.phone }}
-                </a>
-            </p>
-            <p>
-                Email:
-                <a class="anchor" href="mailto:{{ .Site.Data.settings.email }}">
-                    {{ .Site.Data.settings.email }}
-                </a>
-            </p>
-            <div class="">
+    
+    <div id="contact" class="text-left">
+        <h2 class="h1    bg-primary    padding--lg">Contact Me</h2>
+        <form class="container" action="https://formspree.io/tiffanyhootontherapy@protonmail.com" method="POST">
+            <div class="form-row">
+                <label for="name">First Name</label>
+                <input type="text" class="" name="name" id="name" placeholder="Your First Name" required>
+            </div>
+            <div class="form-row">
+                <label for="email">Email Address</label>
+                <input type="email" class="" id="email" name="_replyto" placeholder="name@example.com">
+            </div>
+            <div class="form-row">
+                <label for="phone">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="111-222-3333" required>
+            </div>
+            <div class="form-row">
+                <label for="message">Include a brief message to Tiffany. Please do not include any protected health information.</label>
+            </div>
+            <div class="form-row">
+                <textarea class="" id="message" name="message" rows="6" cols="12" placeholder="Write your message here." ></textarea>
+            </div>
+            <div class="form-row">
+                <input type="submit" class="" value="Send">
+            </div>
+        </form>
+        <div class="stack    grid-container    container-inner     ">
+            <div class="card    bg-light">
+                <h3 class="">Contact Information</h3>
+                <p> 
+                    Office:
+                    <a href="{{ .Site.Data.settings.addressLink }}" rel="noreferrer noopener" target="_blank" class="anchor">
+                        {{ .Site.Data.settings.address }}
+                    </a><br>
+                    <small>
+                        <em>
+                            Located in Downtown Long Beach and easily accessible by public transportation.
+                        </em>
+                    </small>
+                </p>
+                <p>
+                    Phone: 
+                    <a href="tel:{{ .Site.Data.settings.phone }}" class="anchor">
+                        {{ .Site.Data.settings.phone }}
+                    </a>
+                </p>
+                <p>
+                    Email:
+                    <a class="anchor" href="mailto:{{ .Site.Data.settings.email }}">
+                        {{ .Site.Data.settings.email }}
+                    </a>
+                </p>
+            </div>
+            <div class="card    flex-column    bg-light">
                 <figure class="">
-                    <img src="/assets/images/tiff-image.jpg" alt="A photo of Tiffany" height="300px" class="shadow--sm">
+                    <img src="/assets/images/tiff-image.jpg" alt="A photo of Tiffany" width="100%" class="">
                 </figure>
-                <a href="{{ .Site.Data.settings.psychToday }}" rel="noreferrer noopener" target="_blank" class="anchor--button--primary-muted">
+                <a href="{{ .Site.Data.settings.psychToday }}" rel="noreferrer noopener" target="_blank" class="anchor--button--primary">
                     View my Psychology Today profile
                 </a>
             </div>
-        </div>
-        <div class="card   bg-light">
-            <h3 class="card-title">Associate Registration & Supervision</h3>
-            <p>
-                AMFT #115397 | APCC #6793
-            </p>
-            <p>
-                Under the supervision of <a href="http://monicaprovence.com" rel="noopener noreferrer" target="_blank" class="anchor">Monica Provence</a>, LMFT #87245
-            </p>
+            <div class="card    bg-light">
+                <h3 class="">Associate Registration & Supervision</h3>
+                <p>
+                    AMFT #115397 | APCC #6793
+                </p>
+                <p>
+                    Under the supervision of <a href="http://monicaprovence.com" rel="noopener noreferrer" target="_blank" class="anchor">Monica Provence</a>, LMFT #87245
+                </p>
+            </div>
         </div>
     </div>
-</div>
-</div>

@@ -1,7 +1,10 @@
-<section id="about-me" class="stack   full-bleed">
-    <div class="container    text-left    full-bleed">
-                {{ with .Site.GetPage "/about-me.md" }}
-                {{ .Content | markdownify }}
-                {{ end }}
+<section id="about-me" class="stack   banner-alt    full-bleed    padding-y--lg">
+    <div class="container   text-left   bg-dark-transparent    padding--lg   full-bleed">
+        <h2 class="h1   text-center">
+            ABOUT ME
+        </h2>
+        {{ with .Site.GetPage "/about-me.md" }}
+        {{ .Content }}
+        {{ end }}
     </div>
 </section>

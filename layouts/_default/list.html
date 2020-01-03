@@ -2,30 +2,28 @@
 <main>
     
     
-<<<<<<< HEAD
-    <section class="bg-accent    color-off-white">
-    {{ if .Params.toggle_services }}
-        {{ partial "services.html" . }}
-    {{ end }}
-=======
     <section class="">
->>>>>>> 87ccf57d3d3fee13a197bdcf588d31557a59fc88
-            <div class="container">
-                <div class="container-inner   measure">
-                    {{ .Content | markdownify }}
+            <h1 class="bg-primary    padding--lg">
+                {{ .Title }}
+            </h1>
+        <div class="container">
+            <div class="container-inner">
+                <div class="text-left     ">
+                    {{ .Content }}
                 </div>
-                {{ if .Params.toggle_card_list_section }}
-                    {{ partial "card-list.html" . }}
-                {{ end }}
             </div>
+            {{ if .Params.toggle_card_list_section }}
+            {{ partial "card-list.html" . }}
+            {{ end }}
+        </div>
     </section>
     
     {{ if .Params.about }}
-        {{ partial "about.html" . }}
+    {{ partial "about.html" . }}
     {{ end }}
     
     {{ if .Params.contact }}
-        {{ partial "contact.html" . }}
+    {{ partial "contact.html" . }}
     {{ end }}
     
 </main>

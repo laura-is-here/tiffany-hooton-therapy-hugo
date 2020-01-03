@@ -1,16 +1,15 @@
 ---
-title: Gender Therapy in Long Beach 
+title: Gender Therapy
 intro:
-  title: "Trans? Non-binary? Questioning your gender?"
+  title: Trans? Non-binary? Questioning your gender?
   body: |
     I am proud to offer gender-affirming therapy services in my community.
 
     Gender therapy is aimed at assisting individuals who are trans, non-binary, or otherwise questioning or struggling with their gender identity.
-    
+
     **Are you the partner of a trans person?**
 
     [Read more about **Partner Perspectives**, an open therapy group for partners of transgender individuals.](/transgender-therapy-long-beach/partners)
-
 contact: true
 services:
   first:
@@ -45,10 +44,11 @@ Questioning your gender identity can be a confusing, whirlwind of uncovered emot
 
 In therapy, I aim to support your exploration of these feelings and provide you with the tools to be the person you need to be.
 
+## Confronting the world as a trans, non-binary, or gender non-conforming person
 
-## Confronting the world as a trans, non-binary, or gender non-conforming person 
+If you are trans, non-binary, or gender non-conforming, odds are that you've struggled in a world that continues to treat trans individuals as second-class citizens.
 
-
+I strongly believe in addressing marginalization during gender therapy in order to support your ability to confront and shine in a world that can be hostile to your existence, and I have a passion for challenging these societal issues outside of therapy in my personal life and the world at large.
 
 ## HRT and Surgery Letters
 
@@ -56,18 +56,8 @@ I cannot provice letters for surgery and/or hormone replacement therapy at this 
 
 The following Long Beach resources for trans indivduals may be helpful if you are seeking letters:
 
-- Sara's website
-- The center's website
-- blah blah blah
+* [Monica Provence](http://monicaprovence.com), my supervisor
+* [Prospect Therapy](https://www.prospecttherapy.com/hrt-and-gcs-letters), local LGBT affirming therapy practice
+* [The Long Beach LGBT Center](https://centerlb.org)
 
-I only recommend trusted colleagues who agree that [gatekeeping sucks](#).
-
-#### ***NOTE** --- maybe the following can go somewhere that's not here? *
-
-When my wife came out to me as a transgender woman years ago, it started with a text that I won't soon forget:
-
-> "I don't know how to say this, but I wanted to let you know that the reason I've been so stressed lately is that I've been questioning my gender identity"
-
-I had recently come out as bisexual to my wife and considered myself an ally to the LGBT community, but this news from my wife struck me to the core.
-
-*I was scared, and I knew she was too.*
+I only recommend trusted colleagues who agree that **gatekeeping sucks.**

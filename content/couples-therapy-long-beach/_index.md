@@ -1,8 +1,8 @@
 ---
-title: 'Couples Therapy: something we''re taught to dread'
+title: Couples Therapy
 intro:
   toggle: true
-  title: 'Couples therapy: something we''re taught to dread'
+  title: ''
   body: ''
 contact: true
 services:
@@ -30,6 +30,6 @@ toggle_services: false
 toggle_card_list_section: false
 
 ---
-## Why do we dread couples therapy?
+## Why couples therapy?
 
 ## What to look for in a couple's therapist

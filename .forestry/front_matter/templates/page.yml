@@ -1,10 +1,13 @@
 ---
 label: Page
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
-  label: title
+  label: Page Title
+  description: The title for the page. Displayed in the browser tab and as the top-level
+    heading in the main content section, not the header.
 - name: toggle_services
   type: boolean
   label: Toggle Services Section
@@ -61,11 +64,12 @@ fields:
       name: weight
       label: weight
   showOnly:
-    field: toggle_services
     value: true
+  hidden: true
 - name: toggle_card_list_section
   type: boolean
   label: Toggle Card List Section
+  hidden: false
 - type: field_group
   name: cardlist
   label: cardlist
@@ -80,23 +84,26 @@ fields:
     name: three
     label: three
   showOnly:
-    field: toggle_card_list_section
-    value: true
+    value: false
+  hidden: true
 - type: field_group
   name: intro
-  label: intro
   fields:
   - type: text
     name: title
-    label: title
+    label: Header Title
+    default: ''
   - type: textarea
     name: body
-    label: body
     config:
       wysiwyg: true
       schema:
         format: markdown
-      required: true
+      required: false
+    label: Header Body
+  label: Header
+  description: Edit the title and body displayed in the header. Leave blank for the
+    default.
 - type: boolean
   name: about
   label: Toggle About Section

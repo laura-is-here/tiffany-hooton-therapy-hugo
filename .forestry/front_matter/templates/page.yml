@@ -99,7 +99,7 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-      required: true
+      required: false
     label: Header Body
   label: Header
   description: Edit the title and body displayed in the header. Leave blank for the

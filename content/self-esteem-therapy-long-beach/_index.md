@@ -1,8 +1,8 @@
 ---
 title: Therapy to Build Self Esteem
 intro:
-  title: "The Self Esteem Struggle"
-  body: |
+  title: ''
+  body: ''
 contact: true
 services:
   first:

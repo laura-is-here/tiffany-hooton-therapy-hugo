@@ -17,17 +17,17 @@
                 <h2 class="h3">
                     My Services:
                 </h2>
+                <ul class="list-group    grid-container--auto">
                 {{ range where .Pages "Section" "!=" "" }}
-                <ul class="list-group">
-                    <li class="card   bg-light">
+                    <li class="card     flex-column     bg-light">
                         <h3 class="h4">
                             <a href="{{ .RelPermalink }}">
                                 {{ .Title }}
                             </a>
                         </h3>
                     </li>
-                </ul>
                 {{ end }}
+                </ul>
             </section>
             
             {{ if .Params.about }}

@@ -2,29 +2,45 @@
 <main>
     
     
-    <section class="">
-            <h1 class="bg-primary    padding--lg">
-                {{ .Title }}
-            </h1>
-        <div class="container">
-            <div class="container-inner">
-                <div class="text-left     ">
-                    {{ .Content }}
-                </div>
+    <section>
+        <h1 class="bg-primary    padding--lg">
+            {{ .Title }}
+        </h1>
+        <div class="grid-container">
+            <div class="text-left    container-inner    col-span-2">
+                {{ .Content }}
+                {{ if .Params.toggle_card_list_section }}
+                {{ partial "card-list.html" . }}
+                {{ end }}
             </div>
-            {{ if .Params.toggle_card_list_section }}
-            {{ partial "card-list.html" . }}
+            {{ range .Pages }}
+            <div class="container-inner">
+                <h2 class="h4">
+                    More in this section:
+                </h2>
+            <ul class="list-group">
+                <li class="card   bg-light">
+                    <h2 class="h3">
+                        <a href="{{ .RelPermalink }}">
+                            {{ .Title }}
+                        </a>
+                    </h2>
+                    <p>
+                        {{ .Summary | plainify }}
+                    </p>
+                </li>
+            </ul>
             {{ end }}
-        </div>
-    </section>
-    
-    {{ if .Params.about }}
-    {{ partial "about.html" . }}
+        </section>
+        
+        {{ if .Params.about }}
+        {{ partial "about.html" . }}
+        {{ end }}
+        
+        {{ if .Params.contact }}
+        {{ partial "contact.html" . }}
+        {{ end }}
+        
+    </main>
     {{ end }}
     
-    {{ if .Params.contact }}
-    {{ partial "contact.html" . }}
-    {{ end }}
-    
-</main>
-{{ end }}

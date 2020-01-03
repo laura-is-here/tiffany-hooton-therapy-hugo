@@ -1,7 +1,7 @@
 ---
 title: Therapy to Build Self Esteem
 intro:
-  title: ''
+  title: 'false'
   body: ''
 contact: true
 services:

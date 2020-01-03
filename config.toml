@@ -1,24 +1,30 @@
 baseURL = "https://new-ui--unruffled-bell-103c9a.netlify.com/"
 languageCode = "en-us"
 title = "Tiffany Hooton Therapy Long  Beach"
+sectionPagesMenu = "main"
+[menu]
 [[menu.main]]
+identifier = ""
 URL = "/"
 name = "Home"
 weight = 1
 [[menu.main]]
+identifier = "couples-therapy-long-beach"
 URL = "/couples-therapy-long-beach/"
 name = "Couples Therapy"
 weight = 2
 [[menu.main]]
+identifier = "self-esteem-therapy-long-beach"
 URL = "/self-esteem-therapy-long-beach/"
 name = "Self Esteem"
 weight = 3
 [[menu.main]]
+identifier = "transgender-therapy-long-beach"
 URL = "/transgender-therapy-long-beach/"
 name = "Gender Therapy"
 weight = 4
 [[menu.main]]
 URL = "#contact"
 name = "Contact"
-weight = 5
+weight = 100 
 [params]

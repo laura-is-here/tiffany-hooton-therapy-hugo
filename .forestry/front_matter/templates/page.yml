@@ -101,6 +101,9 @@ fields:
         format: markdown
       required: false
     label: Header Body
+  - name: toggle
+    type: boolean
+    label: Toggle header content
   label: Header
   description: Edit the title and body displayed in the header. Leave blank for the
     default.
@@ -112,3 +115,4 @@ fields:
   label: Toggle Contact Section
 pages:
 - content/_index.md
+- content/couples-therapy-long-beach/_index.md

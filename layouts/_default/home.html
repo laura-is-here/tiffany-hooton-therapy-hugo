@@ -6,8 +6,8 @@
         <h1 class="bg-primary    padding--lg">
             {{ .Title }}
         </h1>
-        <div class="container">
-            <div class="text-left    container-inner    col-span-2">
+        <div class="grid-container   no-gutters    padding-x--lg">
+            <div class="text-left    col-span-2">
                 {{ .Content }}
                 {{ if .Params.toggle_card_list_section }}
                 {{ partial "card-list.html" . }}
@@ -15,16 +15,17 @@
             </div>
             <div class="container-inner">
                 <h2 class="h3">
-                    My Services:
+                    Learn more about therapy with me and my services:
                 </h2>
                 <ul class="list-group    grid-container--auto">
                 {{ range where .Pages "Section" "!=" "" }}
-                    <li class="card     flex-column     bg-light">
+                    <li class="card     bg-light    animated fadeInUp">
                         <h3 class="h4">
                             <a href="{{ .RelPermalink }}">
                                 {{ .Title }}
                             </a>
                         </h3>
+                        {{ .Summary | plainify }}
                     </li>
                 {{ end }}
                 </ul>

@@ -1,27 +1,35 @@
 <header class="banner-main   color-off-white    " id="site-title">
-    <div class="container   padding--lg">
+    <div class="container">
         <hr>
         {{ partial "navigation.html" . }}
         <p class="h3">
-            Affirming Therapy<br><span class="text-small   h4">with Tiffany Hooton</span></p>
-            <hr>
-            {{ if .Params.intro.toggle }}
-            {{ with .Params.intro }}
-            <div class="fadeInLeftBig animated       measure    ">
-                <p class="h1    ">{{ .Title }}</p>
+            Affirming Therapy<br><span class="text-small   h4">with Tiffany Hooton</span>
+        </p>
+        <hr>
+    </div>
+    <div>
+        {{ if .Params.intro.toggle }}
+        {{ with .Params.intro }}
+        <div class="fadeInLeftBig animated      measure ">
+            <p class="h1    ">{{ .Title }}</p>
+            <div class="container    ">
                 {{ .Body | markdownify }}
-                <div class="container">
+                <div class="padding--lg">
                     <a href="#contact" class="anchor--button--primary">
                         Contact Me for a Free Consultation 
                     </a>
+                    <p>
+                        Keep scrolling to learn more
+                    </p>
+                    <i class="fas fa-2x fa-arrow-down"></i>
                 </div>
             </div>
-            {{ end }}
-            {{ else }}
-            <div class="fadeInLeftBig animated       measure    ">
-                <p class="h3    ">{{ .Title }}</p>
-            </div>
-            {{ end }}
         </div>
-    </header>
-    
+        {{ end }}
+        {{ else }}
+        <div class="fadeInLeftBig animated       measure    ">
+            <p class="h3    ">{{ .Title }}</p>
+        </div>
+        {{ end }}
+    </div>
+</header>

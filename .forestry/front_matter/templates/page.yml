@@ -5,7 +5,9 @@ display_field: title
 fields:
 - type: text
   name: title
-  label: title
+  label: Page Title
+  description: The title for the page. Displayed in the browser tab and as the top-level
+    heading in the main content section, not the header.
 - name: toggle_services
   type: boolean
   label: Toggle Services Section
@@ -90,8 +92,8 @@ fields:
   fields:
   - type: text
     name: title
-    label: Intro Title
-    default: 'false'
+    label: Header Title
+    default: "{{ .Title }}"
   - type: textarea
     name: body
     config:
@@ -99,8 +101,10 @@ fields:
       schema:
         format: markdown
       required: true
-    label: Intro Body
-  label: Intro Section
+    label: Header Body
+  label: Header
+  description: Edit the title and body displayed in the header. Leave blank for the
+    default.
 - type: boolean
   name: about
   label: Toggle About Section

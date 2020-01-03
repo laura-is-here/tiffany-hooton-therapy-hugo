@@ -23,16 +23,18 @@ cardlist:
     the transition process.
   three: A queer or trans couple experiencing relational issues.
 intro:
-  title: Welcome! 
+  title: Welcome!
   body: |
     I am a Marriage and Family Therapist Associate offering therapy in the greater Long Beach area.
-    
+
     If you are looking for a therapist who is queer, committed to serving the LGBT community, trans-affirming, and sex worker-allied, feel welcome to contact me for a free consultation and we can begin the path of healing together.
-about: true 
+  toggle: true
+about: true
 contact: true
 toggle_services: true
 toggle_card_list_section: true
 menuName: main
+
 ---
 ## Therapy for All
 

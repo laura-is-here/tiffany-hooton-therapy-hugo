@@ -64,7 +64,6 @@ fields:
       name: weight
       label: weight
   showOnly:
-    field: toggle_services
     value: true
   hidden: true
 - name: toggle_card_list_section
@@ -93,7 +92,7 @@ fields:
   - type: text
     name: title
     label: Header Title
-    default: 'false'
+    default: ''
   - type: textarea
     name: body
     config:

@@ -1,9 +1,9 @@
 ---
-title: "Couples Therapy: something we're taught to dread"
+title: 'Couples Therapy: something we''re taught to dread'
 intro:
   toggle: true
-  title: "Couples therapy: something we're taught to dread"
-  body: |
+  title: 'Couples therapy: something we''re taught to dread'
+  body: ''
 contact: true
 services:
   first:
@@ -28,6 +28,7 @@ cardlist:
 about: false
 toggle_services: false
 toggle_card_list_section: false
+
 ---
 ## Why do we dread couples therapy?
 

@@ -17,9 +17,9 @@
                 <h2 class="h3">
                     More in this section:
                 </h2>
-                {{ range .Pages }}
                 <ul class="list-group">
-                    <li class="card   bg-light">
+                {{ range .Pages }}
+                    <li class="card   bg-light   margin-top-spacer">
                         <h3 class="h4">
                             <a href="{{ .RelPermalink }}">
                                 {{ .Title }}
@@ -27,8 +27,8 @@
                         </h3>
                         {{ .Summary | plainify }}
                     </li>
-                </ul>
                 {{ end }}
+                </ul>
             </section>
             
             {{ if .Params.about }}

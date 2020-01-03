@@ -6,20 +6,20 @@
         <h1 class="bg-primary    padding--lg">
             {{ .Title }}
         </h1>
-        <div class="grid-container   no-gutters    padding-x--lg">
-            <div class="text-left    col-span-2">
+        <div class="container">
+            <div class="container-inner   text-left    col-span-2">
                 {{ .Content }}
                 {{ if .Params.toggle_card_list_section }}
                 {{ partial "card-list.html" . }}
                 {{ end }}
             </div>
-            <div class="container-inner">
-                <h2 class="h3">
+            <div class="">
+                <h2 class="h4">
                     Learn more about therapy with me and my services:
                 </h2>
-                <ul class="list-group    grid-container--auto">
-                {{ range where .Pages "Section" "!=" "" }}
-                    <li class="card     bg-light    animated fadeInUp">
+                <ul class="list-group    ">
+                    {{ range where .Pages "Section" "!=" "" }}
+                    <li class="card     bg-light    animated fadeInUp    measure    margin-top-spacer">
                         <h3 class="h4">
                             <a href="{{ .RelPermalink }}">
                                 {{ .Title }}
@@ -27,18 +27,19 @@
                         </h3>
                         {{ .Summary | plainify }}
                     </li>
-                {{ end }}
+                    {{ end }}
                 </ul>
-            </section>
-            
-            {{ if .Params.about }}
-            {{ partial "about.html" . }}
-            {{ end }}
-            
-            {{ if .Params.contact }}
-            {{ partial "contact.html" . }}
-            {{ end }}
-            
-        </main>
+            </div>
+        </section>
+        
+        {{ if .Params.about }}
+        {{ partial "about.html" . }}
         {{ end }}
         
+        {{ if .Params.contact }}
+        {{ partial "contact.html" . }}
+        {{ end }}
+        
+    </main>
+    {{ end }}
+    

@@ -93,7 +93,7 @@ fields:
   - type: text
     name: title
     label: Header Title
-    default: "{{ .Title }}"
+    default: 'false'
   - type: textarea
     name: body
     config:

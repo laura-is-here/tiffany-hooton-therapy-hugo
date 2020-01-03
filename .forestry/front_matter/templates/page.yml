@@ -96,7 +96,7 @@ fields:
   - type: textarea
     name: body
     config:
-      wysiwyg: false
+      wysiwyg: true
       schema:
         format: markdown
       required: false

@@ -56,19 +56,8 @@ I cannot provice letters for surgery and/or hormone replacement therapy at this 
 
 The following Long Beach resources for trans indivduals may be helpful if you are seeking letters:
 
-* Sara's website
-* Monica's website
-* The center's website
-* blah blah blah
+* [Monica Provence](http://monicaprovence.com), my supervisor
+* [Prospect Therapy](https://www.prospecttherapy.com/hrt-and-gcs-letters), local LGBT affirming therapy practice
+* [The Long Beach LGBT Center](https://centerlb.org)
 
-I only recommend trusted colleagues who agree that [gatekeeping sucks](#).
-
-#### ***NOTE__ --- maybe the following can go somewhere that's not here? *
-
-When my wife came out to me as a transgender woman years ago, it started with a text that I won't soon forget:
-
-> "I don't know how to say this, but I wanted to let you know that the reason I've been so stressed lately is that I've been questioning my gender identity"
-
-I had recently come out as bisexual to my wife and considered myself an ally to the LGBT community, but this news from my wife struck me to the core.
-
-_I was scared, and I knew she was too._
+I only recommend trusted colleagues who agree that **gatekeeping sucks.**

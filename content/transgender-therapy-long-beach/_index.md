@@ -10,6 +10,7 @@ intro:
     **Are you the partner of a trans person?**
 
     [Read more about **Partner Perspectives**, an open therapy group for partners of transgender individuals.](/transgender-therapy-long-beach/partners)
+  toggle: true
 contact: true
 services:
   first:

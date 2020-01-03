@@ -36,19 +36,11 @@ toggle_card_list_section: true
 menuName: main
 
 ---
-## Therapy for All
-
-### Therapy for LGBT Couples
-
-### Therapy for Anxiety & Depression
-
-### Transgender and Gender-affirming Therapy
-
 ## What To Expect from Therapy
 
-My approach to therapy is _humanistic, gender-affirming_, and incorporates elements of _cognitive_ and _narrative therapy_ to challenge ways of thinking and internalized messages which negatively affect our views of ourselves, others, and our world. 
+My approach to therapy is _humanistic, gender-affirming_, and incorporates elements of _cognitive_ and _narrative therapy_ to challenge ways of thinking and internalized messages which negatively affect our views of ourselves, others, and our world.
 
-In the therapy office, I typically take on a role that is collaborative, active, and engaged, although I tend to avoid leading the session. This is because I believe that therapy centers on _you._ In our hour together, you get the power to decide where the session goes. 
+In the therapy office, I typically take on a role that is collaborative, active, and engaged, although I tend to avoid leading the session. This is because I believe that therapy centers on _you._ In our hour together, you get the power to decide where the session goes.
 
 My specialty areas include working with queer, trans, and nonbinary individuals and their partners as they navigate identity, transition, relationship issues, and beyond.
 

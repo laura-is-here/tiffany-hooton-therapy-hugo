@@ -5,15 +5,23 @@
         <p class="h3">
             Affirming Therapy<br><span class="text-small   h4">with Tiffany Hooton</span></p>
             <hr>
+            {{ if .Params.intro.toggle }}
+            {{ with .Params.intro }}
             <div class="fadeInLeftBig animated       measure    ">
-                <p class="h1    ">{{ .Params.intro.title }}</p>
-                {{ .Params.intro.body | markdownify }}
+                <p class="h1    ">{{ .Title }}</p>
+                {{ .Body | markdownify }}
                 <div class="container">
                     <a href="#contact" class="anchor--button--primary">
                         Contact Me for a Free Consultation 
                     </a>
                 </div>
             </div>
+            {{ end }}
+            {{ else }}
+            <div class="fadeInLeftBig animated       measure    ">
+                <p class="h3    ">{{ .Title }}</p>
+            </div>
+            {{ end }}
         </div>
     </header>
     

@@ -63,9 +63,11 @@ fields:
   showOnly:
     field: toggle_services
     value: true
+  hidden: true
 - name: toggle_card_list_section
   type: boolean
   label: Toggle Card List Section
+  hidden: true
 - type: field_group
   name: cardlist
   label: cardlist

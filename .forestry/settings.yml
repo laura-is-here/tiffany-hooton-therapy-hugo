@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: data/settings.toml
-  label: Site Settings
 - type: directory
   path: content
   label: Pages

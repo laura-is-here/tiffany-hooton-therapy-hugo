@@ -15,9 +15,9 @@
             </div>
             <div class="container-inner">
                 <h2 class="h3">
-                    More in this section:
+                    My Services:
                 </h2>
-                {{ range .Pages }}
+                {{ range where .Pages "Section" "!=" "" }}
                 <ul class="list-group">
                     <li class="card   bg-light">
                         <h3 class="h4">
@@ -25,7 +25,6 @@
                                 {{ .Title }}
                             </a>
                         </h3>
-                        {{ .Summary | plainify }}
                     </li>
                 </ul>
                 {{ end }}

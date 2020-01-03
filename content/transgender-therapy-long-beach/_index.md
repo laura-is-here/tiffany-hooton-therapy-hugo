@@ -44,10 +44,11 @@ Questioning your gender identity can be a confusing, whirlwind of uncovered emot
 
 In therapy, I aim to support your exploration of these feelings and provide you with the tools to be the person you need to be.
 
+## Confronting the world as a trans, non-binary, or gender non-conforming person
 
-## Confronting the world as a trans, non-binary, or gender non-conforming person 
+If you are trans, non-binary, or gender non-conforming, odds are that you've struggled in a world that continues to treat trans individuals as second-class citizens.
 
-
+I strongly believe in addressing marginalization during gender therapy in order to support your ability to confront and shine in a world that can be hostile to your existence, and I have a passion for challenging these societal issues outside of therapy in my personal life and the world at large.
 
 ## HRT and Surgery Letters
 
@@ -55,13 +56,14 @@ I cannot provice letters for surgery and/or hormone replacement therapy at this 
 
 The following Long Beach resources for trans indivduals may be helpful if you are seeking letters:
 
-- Sara's website
-- The center's website
-- blah blah blah
+* Sara's website
+* Monica's website
+* The center's website
+* blah blah blah
 
 I only recommend trusted colleagues who agree that [gatekeeping sucks](#).
 
-#### ***NOTE** --- maybe the following can go somewhere that's not here? *
+#### ***NOTE__ --- maybe the following can go somewhere that's not here? *
 
 When my wife came out to me as a transgender woman years ago, it started with a text that I won't soon forget:
 
@@ -69,4 +71,4 @@ When my wife came out to me as a transgender woman years ago, it started with a 
 
 I had recently come out as bisexual to my wife and considered myself an ally to the LGBT community, but this news from my wife struck me to the core.
 
-*I was scared, and I knew she was too.*
+_I was scared, and I knew she was too._

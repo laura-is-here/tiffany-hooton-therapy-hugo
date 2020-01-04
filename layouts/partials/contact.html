@@ -24,8 +24,8 @@
                 <input type="submit" class="" value="Send">
             </div>
         </form>
-        <div class="stack    grid-container    container-inner     ">
-            <div class="card    bg-light">
+        <ul class="stack    grid-container    container-inner     list-group">
+            <li class="">
                 <h3 class="">Contact Information</h3>
                 <p> 
                     Office:
@@ -35,7 +35,7 @@
                     <small>
                         <em>
                             Located in Downtown Long Beach and easily accessible by public transportation.
-
+                            
                             Unfortunately, the office currently requires climbing stairs to access.
                         </em>
                     </small>
@@ -52,16 +52,29 @@
                         {{ .Site.Data.settings.email }}
                     </a>
                 </p>
-            </div>
-            <div class="card    flex-column    bg-light">
-                <figure class="">
+            </li>
+            <li class="card--image-header    bg-light   text-center">
+                <figure class="card--image-header__img">
                     <img src="/assets/images/tiff-image.jpg" alt="A photo of Tiffany" width="100%" class="">
                 </figure>
-                <a href="{{ .Site.Data.settings.psychToday }}" rel="noreferrer noopener" target="_blank" class="anchor--button--primary">
-                    View my Psychology Today profile
-                </a>
-            </div>
-            <div class="card    bg-light">
+                <div class="card--image-header__txt">
+                    <p>
+                        Thanks for visiting my site! You dont' have to go it alone. If you're struggling, reach out.
+                    </p>
+                    <p>
+                        And, most importantly,<br> 
+                        <span class="h4">
+                            <strong>
+                                breathe
+                            </strong>
+                        </span>
+                    </p>
+                    <a href="{{ .Site.Data.settings.psychToday }}" rel="noreferrer noopener" target="_blank" class="anchor--button--primary">
+                        View my Psychology Today profile
+                    </a>
+                </div>
+            </li>
+            <li class="">
                 <h3 class="">Associate Registration & Supervision</h3>
                 <p>
                     AMFT #115397 | APCC #6793
@@ -69,6 +82,6 @@
                 <p>
                     Under the supervision of <a href="http://monicaprovence.com" rel="noopener noreferrer" target="_blank" class="anchor">Monica Provence</a>, LMFT #87245
                 </p>
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>

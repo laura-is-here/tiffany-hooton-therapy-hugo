@@ -382,6 +382,29 @@ h4, .h4 {
     } 
 }
 
+.card--image-header {
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+    overflow-x: auto;
+    word-wrap: normal;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.card--image-header__img {
+    margin: 0 auto;
+    padding: 0;
+    flex: 1 1 30%;
+
+    > img {
+       object-fit: cover;
+       max-width: 100%; 
+       height: 650px;
+    }
+}
+
+.card--image-header__txt {
+    padding: 1.5rem;
+}
 .slider {
     width: 300px;
     height: 350px;

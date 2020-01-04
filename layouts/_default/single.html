@@ -2,23 +2,18 @@
 <main>
     
     <section class="">
-            <h1 class="bg-primary    padding--lg">
-                {{ .Title }}
-            </h1>
+        <h1 class="bg-primary    padding--lg">
+            {{ .Title }}
+        </h1>
         <div class="container">
-            <div class="container-inner">
-                <div class="text-left     ">
-                    {{ .Content }}
-                </div>
+            <div class="container-inner    text-left">
+                {{ .Content }}
             </div>
-            {{ if .Params.toggle_card_list_section }}
-            {{ partial "card-list.html" . }}
-            {{ end }}
         </div>
     </section>
     
     {{ if .Params.contact }}
-        {{ partial "contact.html" . }}
+    {{ partial "contact.html" . }}
     {{ end }}
     
 </main>

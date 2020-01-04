@@ -7,13 +7,13 @@
             {{ .Title }}
         </h1>
         <div class="container">
-            <div class="container-inner   text-left    col-span-2">
+            <div class="container-inner   text-left">
                 {{ .Content }}
                 {{ if .Params.toggle_card_list_section }}
                 {{ partial "card-list.html" . }}
                 {{ end }}
             </div>
-            <div class="">
+            <div class="container-inner">
                 <h2 class="h4">
                     Learn more about therapy with me and my services:
                 </h2>

@@ -7,7 +7,7 @@
             {{ .Title }}
         </h1>
         <div class="container">
-            <div class="text-left    container-inner    col-span-2">
+            <div class="text-left    container-inner">
                 {{ .Content }}
                 {{ if .Params.toggle_card_list_section }}
                 {{ partial "card-list.html" . }}

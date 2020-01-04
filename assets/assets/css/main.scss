@@ -24,6 +24,8 @@ $header-font: "{{ .Site.Data.settings.headerFont }}";
 
 :root {
     --main-font-color: #353535;
+    --link-color: var(--main-font-color);
+    --link-hover-color: #{$accent-color};
     --off-white: hsla(192, 2%, 94%, 100%);
     --off-white-transparent: hsla(192, 2%, 94%, 50%);
     --pink: hsla(329, 61%, 61%, 100%);
@@ -482,16 +484,16 @@ h4, .h4 {
 /* ----------------- $LINKS */
 
 a, .anchor {
-    color: var(--main-font-color);
+    color: var(--link-color);
     
     &:visited {
-        color: var(--main-font-color);
+        color: var(--link-color);
     }
     
     &:hover,
     &:active,
     &:focus {
-        color: $theme-color;
+        color: var(--link-hover-color);
     }
 }
 
@@ -585,7 +587,7 @@ a, .anchor {
     &:link,
     &:visited {
         display: inline;
-        color: initial;
+        color: unset;
         background-color: transparent;
         text-decoration: none;
         padding: 0;
@@ -837,25 +839,10 @@ a, .anchor {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    --link-color: var(--off-white);
+    --link-hover-color: #{$theme-color};
     
-    a:not(.anchor--button--primary), .anchor {
-        color: var(--off-white);
-        
-        &:visited {
-            color: var(--off-white);
-        }
-        
-        &:hover,
-        &:active,
-        &:focus {
-            color: $theme-color;
-        }
-    }
     
-    .nav-link.active {
-        font-weight: bold;
-        color: $theme-color;
-    }
 }
 
 
@@ -984,8 +971,8 @@ a, .anchor {
     }
 }
 
-.nav-link {
-    color: var(--off-white);
+a.nav-link {
+    --link-color: var(--off-white);
     text-decoration: none;
     display: block;
     padding: 0.25rem 0;
@@ -997,11 +984,10 @@ a, .anchor {
     &:hover,
     &:active,
     &:focus {
-        color: $theme-color;
+        --link-hover-color: #{$theme-color};
     }
 
-    .active {
-        color: $theme-color;
+    &.active {
         font-weight: bold;
     }
 

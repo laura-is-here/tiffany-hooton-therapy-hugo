@@ -905,7 +905,6 @@ a, .anchor {
 .js .nav-content {
     text-align: right;
     position: relative;
-    top: 1.5rem;;
     right: -3rem;
     display: none;
     transition: 0.5s ease-in-out;
@@ -913,7 +912,6 @@ a, .anchor {
     @media #{$mq-medium} {
         text-align: center;
         display: block;
-        top: 1.5rem;
         left: 0;
     }
 }

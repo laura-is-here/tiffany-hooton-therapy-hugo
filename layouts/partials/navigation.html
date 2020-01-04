@@ -9,7 +9,6 @@
     </a>
     
     
-    
     <div class="nav-content" id="navbarSupportedContent">
         <ul class="nav-links   margin--sm">
             {{ $currentPage := . }}
@@ -26,7 +25,7 @@
                 Affirming Therapy<br><span class="text-small   h4">with Tiffany Hooton</span>
             </a>
         </p>
-        {{ if ne .Kind "home" }}
+        {{ if and (ne .Kind "home") (.Pages) }}
         <div class="bg-dark-transparent   card">
             <small>
                 more for <strong>{{ .Title }}</strong> 

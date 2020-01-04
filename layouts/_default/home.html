@@ -19,7 +19,7 @@
                 </h2>
                 <ul class="list-group    ">
                     {{ range where .Pages "Section" "!=" "" }}
-                    <li class="card     bg-light    animated fadeInUp    measure    margin-top-spacer">
+                    <li class="card     bg-light    animated fadeInSmall animateWhenVisible    measure    margin-top-spacer">
                         <h3 class="h4">
                             <a href="{{ .RelPermalink }}">
                                 {{ .Title }}

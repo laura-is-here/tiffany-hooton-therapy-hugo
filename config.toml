@@ -1,7 +1,6 @@
 baseURL = "https://new-ui--unruffled-bell-103c9a.netlify.com/"
 languageCode = "en-us"
 title = "Tiffany Hooton Therapy Long  Beach"
-sectionPagesMenu = "main"
 [menu]
 [[menu.main]]
 identifier = ""

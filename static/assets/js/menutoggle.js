@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
 navToggle.addEventListener('click', () => {
    navContent.classList.toggle('show'); 
    if (navContent.classList.contains('show')) {
-       navToggleIcon.item(0).innerHTML = 'Close';
-       navToggleIcon.item(1).classList.replace('fa-bars', 'fa-window-close');
+       navToggleIcon.item(0).classList.replace('fa-bars', 'fa-window-close');
+       navToggle.setAttribute('aria-expanded', 'true');
    } else {
-       navToggleIcon.item(0).innerHTML = 'Menu';
-       navToggleIcon.item(1).classList.replace('fa-window-close', 'fa-bars');
+       navToggleIcon.item(0).classList.replace('fa-window-close', 'fa-bars');
+       navToggle.setAttribute('aria-expanded', 'false');
    }
 });
 

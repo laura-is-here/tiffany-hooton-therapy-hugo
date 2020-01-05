@@ -30,6 +30,6 @@ toggle_services: false
 toggle_card_list_section: false
 
 ---
-## Why couples therapy?
+## What happens in couples therapy?
 
 ## What to look for in a couple's therapist

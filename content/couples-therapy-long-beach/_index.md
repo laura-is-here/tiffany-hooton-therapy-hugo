@@ -30,6 +30,7 @@ toggle_services: false
 toggle_card_list_section: false
 
 ---
+
 ## Anxious about couples therapy?
 
 Going to therapy with your partner(s) can be daunting. Sometimes, people have the idea that couples therapy is a last resort -- a death knell of a dying relationship or sign of failure. Some might fear that the therapist will inevitably take sides and favor one partner's story over the other. Others still dread a judgemental therapist who sticks their nose up at relationships that don't exactly follow the rules of normative romance -- queer, polyamourous, kink, what?
@@ -51,3 +52,5 @@ Sure, it's chaos -- but controlled chaos!
 The number one area my clients want help with in their relationships is communication -- and for good reason. The way in which we communicate, verbally or nonverbally, with people plays a significant role in the quality of our interactions. Couples therapy is an excellent environment to evaluate if our way of communicating is facilitating openness and intimacy or if it is pushing our partner(s) away. 
 
 That said, communicate isn't just about what we say and how we say it. Communicate is also about how we understand the messages our partner is sending up. Even the most carefully articulated communication can get lost in translation. 
+
+### Identify patterns of behavior

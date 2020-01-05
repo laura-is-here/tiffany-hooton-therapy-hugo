@@ -40,10 +40,14 @@ I'm here to tell you that, although these scenarios are rare, having anxiety abo
 
 A safe, nonjudgemental space. When I work with couples, one of my first (and ongoing) priorities is seeing to the emotional and physical safety of all partners. 
 
-You can expect to learn and practice new skills with your partner. In couples therapy it's not uncommon to learn new things about yourself, your partner(s), and new ways of interacting. Therapy is also a space to put those newly learned skills to use. 
+You can expect to learn and practice new skills with your partner. In couples therapy, it's not uncommon to learn new things about yourself, your partner(s), and new ways of interacting. Therapy is also a space to put those newly learned skills to use. 
 
 You can expect some discomfort. Discomfort and conflict is, often, a necessary part of working through issues in couples therapy. When things heat up, it can be hard to keep going, but sometimes there is a breakthrough waiting to happen. Remember, I will be there to de-escalate, moderate, and help cool things down. 
 
 Sure, it's chaos -- but controlled chaos!
 
 ### Communication
+
+The number one area my clients want help with in their relationships is communication -- and for good reason. The way in which we communicate, verbally or nonverbally, with people plays a significant role in the quality of our interactions. Couples therapy is an excellent environment to evaluate if our way of communicating is facilitating openness and intimacy or if it is pushing our partner(s) away. 
+
+That said, communicate isn't just about what we say and how we say it. Communicate is also about how we understand the messages our partner is sending up. Even the most carefully articulated communication can get lost in translation. 

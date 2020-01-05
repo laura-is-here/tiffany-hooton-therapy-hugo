@@ -40,20 +40,10 @@ I'm here to tell you that, although these scenarios are rare, having anxiety abo
 
 A safe, nonjudgemental space. When I work with couples, one of my first (and ongoing) priorities is seeing to the emotional and physical safety of all partners. 
 
-You can expect to learn and practice new skills with your partner. In couples therapy it's not uncommon to learn new things about yourself, your partner(s), and new ways of interacting. Therapy is also a space to put those newly learned skills to work. 
+You can expect to learn and practice new skills with your partner. In couples therapy it's not uncommon to learn new things about yourself, your partner(s), and new ways of interacting. Therapy is also a space to put those newly learned skills to use. 
 
-### Tell your own story
+You can expect some discomfort. Discomfort and conflict is, often, a necessary part of working through issues in couples therapy. When things heat up, it can be hard to keep going, but sometimes there is a breakthrough waiting to happen. Remember, I will be there to de-escalate, moderate, and help cool things down. 
 
-The stories we tell ourselves about our relationships affect the way we view ourselves and our partner(s).
+Sure, it's chaos -- but controlled chaos!
 
-Couples therapy can be a time to talk about that story in your own words and break out of the ideas that keep you stuck in unhelpful ways of relating to your loved one(s).
-
-### Listen and be heard
-
-Couples therapy is a chance to say the things you need to say in a supportive environment.
-
-It's also a chance to listen deeply to your partner.
-
-Listening is an essential tool in our relationships. Only by listening to one another can we respond to our partner's needs.
-
-## What to look for in a couple's therapist
+### Communication

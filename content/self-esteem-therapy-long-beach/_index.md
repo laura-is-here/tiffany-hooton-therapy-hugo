@@ -28,6 +28,7 @@ cardlist:
 about: false
 toggle_services: false
 toggle_card_list_section: false
+summary: This section is under construction. Check back soon for more details!
 
 ---
 ## This section is under construction

@@ -1,8 +1,8 @@
 ---
 title: Therapy to Build Self Esteem
 intro:
-  toggle: false
-  title: ''
+  toggle: true
+  title: More info coming soon!
   body: ''
 contact: true
 services:
@@ -30,10 +30,6 @@ toggle_services: false
 toggle_card_list_section: false
 
 ---
-## Mood Disorders and Low Self Esteem
+## This section is under construction
 
-### Anxiety
-
-### Depression
-
-## Negative Self Image and Trauma
+ Check back soon!

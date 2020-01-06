@@ -13,12 +13,13 @@
                 {{ partial "card-list.html" . }}
                 {{ end }}
             </div>
+            {{ if ne .Pages nil }}
             <div class="container-inner">
                 <h2 class="h3">
                     Learn more about {{ .Title }}:
                 </h2>
                 <ul class="list-group">
-                {{ range .Pages }}
+                    {{ range .Pages }}
                     <li class="card   bg-light   margin-top-spacer    animated  fadeInSmall    animateWhenVisible">
                         <h3 class="h4">
                             <a href="{{ .RelPermalink }}">
@@ -27,18 +28,20 @@
                         </h3>
                         {{ .Summary | plainify }}
                     </li>
-                {{ end }}
+                    {{ end }}
                 </ul>
-            </section>
-            
-            {{ if .Params.about }}
-            {{ partial "about.html" . }}
+            </div>
             {{ end }}
-            
-            {{ if .Params.contact }}
-            {{ partial "contact.html" . }}
-            {{ end }}
-            
-        </main>
+        </section>
+        
+        {{ if .Params.about }}
+        {{ partial "about.html" . }}
         {{ end }}
         
+        {{ if .Params.contact }}
+        {{ partial "contact.html" . }}
+        {{ end }}
+        
+    </main>
+    {{ end }}
+    

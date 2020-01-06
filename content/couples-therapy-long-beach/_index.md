@@ -39,19 +39,25 @@ I'm here to tell you that, although these scenarios are rare, having anxiety abo
 
 ## So, What Can You Expect from Couples Therapy?
 
-### A safe, nonjudgmental space
+A safe, nonjudgmental space, for one. 
 
 When I work with couples, one of my first (and ongoing) priorities is seeing to the emotional and physical safety of all partners.
 
-### Learn and practice new skills with your partner
+You can expect to learn and practice new skills with your partner.
 
-In couples therapy, it's not uncommon to learn new things about yourself, your partner(s), and new ways of interacting. Therapy is also a space to put those newly acquired skills to use.
+ In couples therapy, it's not uncommon to learn new things about yourself, your partner(s), and new ways of interacting. Therapy is also a space to put those newly acquired skills to use.
 
-### Some discomfort
+You can expect some discomfort, as well.
 
 Discomfort and conflict is, often, a necessary part of working through issues in couples therapy. When things heat up, it can be hard to keep going, but sometimes there is a breakthrough waiting to happen. Remember, I will be there to de-escalate, moderate, and help cool things down.
 
 Sure, it's chaos -- but it's controlled chaos!
+
+Some areas couples commonly spend time in therapy include, but are not limited to:
+
+* Communication
+* Identifying Patterns of behavior
+* Connecting and building intimacy
 
 ### Communication
 
@@ -59,7 +65,7 @@ The number one area my clients want help with in their relationships is communic
 
 That said, communication isn't just about what we say and how we say it. Communication is also about how we understand the messages our partner is sending up. Even the most carefully articulated message can get lost in translation.
 
-### Identify patterns
+### Identify patterns of behavior
 
 Feeling stuck? Having the same argument over and over? Sometimes people in relationships find themselves enacting the same conflict-inducing patterns time after time without even realizing it. Sometimes we _are_ aware of these dynamics, but we don't know why or how to change it.
 

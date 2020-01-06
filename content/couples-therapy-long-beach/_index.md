@@ -71,4 +71,6 @@ First, it is crucial to recognize that intimacy has a multitude of meanings. It 
 
 Not all couples look the same. And, certainly, not all couples conform to the standards set by our cis- and heteronormative, monogamous, and vanilla-sex-having society. 
 
-I am proud to offer a space to couples
+I am proud to offer a space that honors and respects the natural diversity of human sexual, romantic, and intimate relationships. 
+
+No matter the identities or numbers of people involved, everyone deserves relationships that are happy, healthy, and safe. Sometimes, as with any couple, this involves therapy. Therefore, I feel it is important for providers to make couples therapy accessible and inclusive to diverse and marginalized relationships. 

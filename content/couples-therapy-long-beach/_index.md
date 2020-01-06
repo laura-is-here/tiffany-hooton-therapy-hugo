@@ -34,6 +34,8 @@ _*For ease of reading, the term "couple" will be used to denote "people in an in
 
 Going to therapy with your partner(s) can be daunting. Sometimes, people have the idea that couples therapy is a last resort -- a death knell of a dying relationship or sign of failure.
 
+<!--more-->
+
 Some might fear that the therapist will inevitably take sides and favor one partner's story over the other. Others still dread a judgemental therapist who sticks their nose up at relationships that don't precisely follow the rules of normative romance -- queer, polyamourous, kink, what?
 
 I'm here to tell you that, although these scenarios are rare, having anxiety about seeking help in your relationship is normal -- but don't let those fears deter you from finding support when you need it!

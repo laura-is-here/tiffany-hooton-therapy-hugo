@@ -43,6 +43,8 @@ Maybe you've never really felt comfortable performing the role of the gender you
 
 Questioning your gender identity can be a confusing, whirlwind of uncovered emotions or feelings some describe as opening Pandora's box, or it can be a smoldering feeling that's been with you for as long as you can remember, or even both.
 
+<!--more-->
+
 In therapy, I aim to support your exploration of these feelings and provide you with the tools to be the person you need to be.
 
 ## Confronting the world as a trans, non-binary, or gender non-conforming person

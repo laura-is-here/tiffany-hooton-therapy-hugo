@@ -31,13 +31,15 @@ toggle_card_list_section: false
 
 ---
 
-## Anxious about couples therapy?
+## Anxious About Couples* Therapy?
 
 Going to therapy with your partner(s) can be daunting. Sometimes, people have the idea that couples therapy is a last resort -- a death knell of a dying relationship or sign of failure. Some might fear that the therapist will inevitably take sides and favor one partner's story over the other. Others still dread a judgemental therapist who sticks their nose up at relationships that don't precisely follow the rules of normative romance -- queer, polyamourous, kink, what?
 
 I'm here to tell you that, although these scenarios are rare, having anxiety about seeking help in your relationship is normal -- but don't let those fears deter you from finding support when you need it!
 
-## So, what can you expect? 
+_*For ease of reading, the term "couple" will be used to denote "people in an intimate relationship," and is not limited to two people._ 
+
+## So, What Can You Expect? 
 
 A safe, nonjudgemental space, for one. When I work with couples, one of my first (and ongoing) priorities is seeing to the emotional and physical safety of all partners. 
 
@@ -63,4 +65,10 @@ Identifying these patterns, investigating where they come from, disrupting them,
 
 Another common area of intervention in couples therapy is increasing intimacy in the relationship. Many couples feel they've lost the spark they once had. 
 
-First, it is crucial to recognize that intimacy has a multitude of meanings. It spans all levels of connection with your partner, and a person's intimacy needs can vary greatly. Couples therapy can be a place for partners to explore one's relationship to sex, sensuality, romance, and emotional connection; discover new ways to connect; develop a sense of compassion for your partner(s) to deepen feelings of love and trust. 
+First, it is crucial to recognize that intimacy has a multitude of meanings. It spans all levels of connection with your partner, and a person's intimacy needs can vary greatly. Couples therapy can be a place for partners to explore one's relationship to sex, sensuality, romance, and emotional connection; discover new ways to connect; develop a sense of compassion for your partner(s) to deepen feelings of love and trust.
+
+## LGBTQ+, Polyamourous, and Kink Couples
+
+Not all couples look the same. And, certainly, not all couples conform to the standards set by our cis- and heteronormative, monogamous, and vanilla-sex-having society. 
+
+I am proud to offer a space to couples

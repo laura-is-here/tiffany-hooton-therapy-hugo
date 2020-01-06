@@ -58,3 +58,7 @@ That said, communication isn't just about what we say and how we say it. Communi
 Feeling stuck? Having the same argument over and over? Sometimes people in relationships find themselves enacting the same conflict-inducing patterns time after time without even realizing it. Sometimes we _are_ aware of these dynamics, but we don't know why or how to change it. 
 
 Identifying these patterns, investigating where they come from, disrupting them, and replacing them with healthier ways of interacting are all common goals of couples therapy. 
+
+### Intimacy and compassion
+
+Another common area of intervention in couples therapy is increasing intimacy in the relationship. Many couples feel they've lost the spark they once had

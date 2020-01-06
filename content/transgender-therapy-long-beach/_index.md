@@ -53,11 +53,11 @@ I strongly believe in addressing marginalization during gender therapy in order 
 
 ## HRT and Surgery Letters
 
-I cannot provice letters for surgery and/or hormone replacement therapy at this time due to my status as an Associate. However, I am happy to refer individuals seeking these letters to the appropriate places.
+I cannot provide letters for surgery and/or hormone replacement therapy at this time due to my status as an Associate. However, I am happy to refer individuals seeking these letters to the appropriate places.
 
-The following Long Beach resources for trans indivduals may be helpful if you are seeking letters:
+The following Long Beach resources for trans individuals may be helpful if you are seeking letters:
 
-* [Monica Provence](http://monicaprovence.com), my supervisor
+* [Monica Provence](http://monicaprovence.com), LGBT affirming therapist (and my supervisor)
 * [Prospect Therapy](https://www.prospecttherapy.com/hrt-and-gcs-letters), local LGBT affirming therapy practice
 * [The Long Beach LGBT Center](https://centerlb.org)
 

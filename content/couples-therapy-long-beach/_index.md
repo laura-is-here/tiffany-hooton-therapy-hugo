@@ -28,13 +28,15 @@ cardlist:
 about: false
 toggle_services: false
 toggle_card_list_section: false
+summary: |-
+  Going to therapy with your partner(s) can be daunting. Sometimes, people have the idea that couples therapy is a last resort -- a death knell of a dying relationship or sign of failure.
+
+  Having anxiety about seeking help in your relationship is normal -- but don't let those fears deter you from finding support when you need it!
 
 ---
 _*For ease of reading, the term "couple" will be used to denote "people in an intimate relationship," and is not limited to two people._
 
 Going to therapy with your partner(s) can be daunting. Sometimes, people have the idea that couples therapy is a last resort -- a death knell of a dying relationship or sign of failure.
-
-<!--more-->
 
 Some might fear that the therapist will inevitably take sides and favor one partner's story over the other. Others still dread a judgemental therapist who sticks their nose up at relationships that don't precisely follow the rules of normative romance -- queer, polyamourous, kink, what?
 
@@ -42,13 +44,13 @@ I'm here to tell you that, although these scenarios are rare, having anxiety abo
 
 ## So, What Can You Expect from Couples Therapy?
 
-A safe, nonjudgmental space, for one. 
+A safe, nonjudgmental space, for one.
 
 When I work with couples, one of my first (and ongoing) priorities is seeing to the emotional and physical safety of all partners.
 
 You can expect to learn and practice new skills with your partner.
 
- In couples therapy, it's not uncommon to learn new things about yourself, your partner(s), and new ways of interacting. Therapy is also a space to put those newly acquired skills to use.
+In couples therapy, it's not uncommon to learn new things about yourself, your partner(s), and new ways of interacting. Therapy is also a space to put those newly acquired skills to use.
 
 You can expect some discomfort, as well.
 

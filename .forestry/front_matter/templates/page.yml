@@ -113,6 +113,15 @@ fields:
 - type: boolean
   name: contact
   label: Toggle Contact Section
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: summary
 pages:
 - content/_index.md
 - content/couples-therapy-long-beach/_index.md

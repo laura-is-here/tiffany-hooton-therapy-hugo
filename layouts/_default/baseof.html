@@ -15,7 +15,6 @@
         {{ $sass := $sassTemplate | resources.ExecuteAsTemplate "assets/css/main.scss" . }}
         {{ $style := $sass | toCSS | postCSS | minify | fingerprint }}
         <link rel="stylesheet" href="{{ $style.Permalink }}">
-        <meta name="description" content="Depressed, anxious or struggling? Learn more about person-centered, queer and gender affirming therapy in the Long Beach area.">
         <meta property="og:title"       content="Tiffany Hooton Therapy">
         <meta property="og:site_name"   content="Tiffany Hooton Therapy | tiffanyhootonmft.com">
         <meta property="og:type"        content="website">

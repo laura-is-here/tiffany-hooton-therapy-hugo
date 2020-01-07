@@ -30,16 +30,16 @@
                     {{ end }}
                 </ul>
             </div>
-        </section>
-        
-        {{ if .Params.about }}
-        {{ partial "about.html" . }}
-        {{ end }}
-        
-        {{ if .Params.contact }}
-        {{ partial "contact.html" . }}
-        {{ end }}
-        
-    </main>
+        </div>
+    </section>
+    
+    {{ if .Params.about }}
+    {{ partial "about.html" . }}
     {{ end }}
     
+    {{ if .Params.contact }}
+    {{ partial "contact.html" . }}
+    {{ end }}
+    
+</main>
+{{ end }}

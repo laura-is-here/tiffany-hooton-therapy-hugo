@@ -1,7 +1,7 @@
 baseURL = "https://tiffanyhootonmft.com/"
 languageCode = "en-us"
-title = "Tiffany Hooton Therapy Long Beach"
-enableRobotsTXT = true
+title = "Affirming Therapy Long Beach"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 [menu]
 [[menu.main]]
 identifier = ""

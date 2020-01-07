@@ -28,3 +28,10 @@ HUGO_VERSION = "0.62.1"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/partner-perspectives"
+  to = "/transgender-therapy-long-beach/partners/"
+  status = 301
+  force = false
+  query = {path = ":path"}

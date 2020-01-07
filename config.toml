@@ -1,6 +1,7 @@
-baseURL = "https://new-ui--unruffled-bell-103c9a.netlify.com/"
+baseURL = "https://tiffanyhootonmft.com/"
 languageCode = "en-us"
 title = "Tiffany Hooton Therapy Long Beach"
+enableRobotsTXT = true
 [menu]
 [[menu.main]]
 identifier = ""

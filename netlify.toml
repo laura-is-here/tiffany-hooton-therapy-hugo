@@ -30,7 +30,7 @@ HUGO_VERSION = "0.62.1"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "/partner-perspectives"
+  from = "/partner-perspectives/"
   to = "/transgender-therapy-long-beach/partners/"
   status = 301
   force = false

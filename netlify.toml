@@ -33,5 +33,5 @@ HUGO_ENABLEGITINFO = "true"
   from = "/partner-perspectives/"
   to = "/transgender-therapy-long-beach/partners/"
   status = 301
-  force = false
+  force = true 
   query = {path = ":path"}

@@ -7,20 +7,19 @@
             {{ .Title }}
         </h1>
         <div class="container">
-            <div class="text-left    container-inner">
+            <div class="container-inner   text-left">
                 {{ .Content }}
                 {{ if .Params.toggle_card_list_section }}
                 {{ partial "card-list.html" . }}
                 {{ end }}
             </div>
-            {{ if ne .Pages nil }}
             <div class="container-inner">
-                <h2 class="h3">
-                    Learn more about {{ .Title }}:
+                <h2 class="h4">
+                    Learn more about therapy with me and my services:
                 </h2>
-                <ul class="list-group">
-                    {{ range .Pages }}
-                    <li class="card   bg-light   margin-top-spacer    animated  fadeInSmall    animateWhenVisible">
+                <ul class="list-group    ">
+                    {{ range where .Pages "Section" "!=" "" }}
+                    <li class="card     bg-light    animated fadeInSmall animateWhenVisible    measure    margin-top-spacer">
                         <h3 class="h4">
                             <a href="{{ .RelPermalink }}">
                                 {{ .Title }}
@@ -31,7 +30,6 @@
                     {{ end }}
                 </ul>
             </div>
-            {{ end }}
         </section>
         
         {{ if .Params.about }}

@@ -1,31 +1,19 @@
 {{ define "main" }}
 <main>
     
-    {{ partial "intro.html" . }}
-    
-    {{ if .Params.services }}
-        {{ partial "services.html" . }}
-    {{ end }}
-    
-    <section class="banner-alt">
-            <div class="container">
-                <div class="container-inner">
-                    <div class="card     bg-light    ">
-                        {{ .Content | markdownify }}
-                    </div>
-                </div>
-                {{ if .Params.cardlist }}
-                    {{ partial "card-list.html" . }}
-                {{ end }}
+    <section class="">
+        <h1 class="bg-primary    padding--lg">
+            {{ .Title }}
+        </h1>
+        <div class="container">
+            <div class="container-inner    text-left">
+                {{ .Content }}
             </div>
+        </div>
     </section>
     
-    {{ if .Params.about }}
-        {{ partial "about.html" . }}
-    {{ end }}
-    
     {{ if .Params.contact }}
-        {{ partial "contact.html" . }}
+    {{ partial "contact.html" . }}
     {{ end }}
     
 </main>

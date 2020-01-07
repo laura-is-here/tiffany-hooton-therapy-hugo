@@ -14,20 +14,24 @@ $mq-xxlarge: "(min-width: #{$bp-xxlarge})";
 $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
 // Font-Size
-$base-font-size: 1.1rem;
+$base-font-size: 1rem;
 
 // Line-Height
-$base-line-height: 1.45;
+$base-line-height: 1.35;
 $header-line-height: 1.15;
 
+/*
+- - cadefc - - 4f3a65 
+*/
 
-$theme-color: hsla(329, 61%, 61%, 100%) !default;
+$base-color: #ffc2d8 !default;
+$theme-color: scale-color($base-color, $lightness: +50%);
+$theme-color-light: scale-color($theme-color, $lightness: +20%);
+$theme-color-transparent: scale-color($theme-color, $alpha: -70%);
 $theme-color-muted: scale-color($theme-color, $lightness: -20%, $saturation: -10%) !default;
-$accent-color: #6C80FD !default;
+$theme-color-muted-transparent: scale-color($theme-color-muted, $alpha: -50%);
+$accent-color: #4A148C !default;
 $accent-color-muted: scale-color($accent-color, $lightness: -20%, $saturation: -10%) !default;
 
-$hero-image: "/assets/images/waves.jpg" !default;
-$body-image: "/assets/images/mountains.jpg" !default;
-
-$main-font: "Lato" !default;
-$header-font: "Poppins" !default;
+$hero-image: "/assets/images/screen-1.jpg" !default;
+$body-image: "/assets/images/screen-3.jpg" !default;

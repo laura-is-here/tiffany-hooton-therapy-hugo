@@ -1,18 +1,45 @@
-<nav class="navbar "  id="navbar">
+<nav class="navbar    container"  id="navbar">
     <button id="menu-toggler" class="nav-toggle-icon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <div>Menu</div>
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-2x fa-bars"></i>
     </button>
+    <a href="/" class="logo    text-small    text-left    color-primary">
+        <strong>
+        Affirming Therapy<br><em>with Tiffany Hooton</em> 
+        </strong>
+    </a>
+    
     
     <div class="nav-content" id="navbarSupportedContent">
-        <ul class="nav-links">
+        <ul class="nav-links   margin--sm">
+            {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
-            <li class="">
-                <a class="nav-link" href="{{ .URL }}">
+            <li>
+                <a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
                     {{ .Name }}
                 </a>
             </li>
             {{ end }}
         </ul>
+        <p class="h3">
+            <a href="/" class="no-style-link    ">
+                Affirming Therapy<br><span class="text-small   h4">with Tiffany Hooton</span>
+            </a>
+        </p>
+        {{ if and (ne .Kind "home") (.Pages) }}
+        <div class="bg-dark-transparent   card">
+            <small>
+                more for <strong>{{ .Title }}</strong> 
+            </small>
+            <ul class="nav-links    ">
+                {{ range .Pages }}
+                <li>
+                    <a class="nav-link" href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
     </div>
 </nav>

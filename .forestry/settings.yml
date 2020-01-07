@@ -4,14 +4,13 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: data/settings.toml
-  label: Site Settings
 - type: directory
   path: content
   label: Pages
   create: all
   match: "**/**/*"
+  templates:
+  - page
 upload_dir: static/images/uploads
 public_path: "/images/uploads"
 front_matter_path: ''
@@ -20,7 +19,7 @@ file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.59.1
+  - HUGO_VERSION=0.62.1
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: forestryio/hugo:node10

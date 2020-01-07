@@ -1,7 +1,31 @@
-<header class="banner-main" id="site-title">
-    <div class="container   margin-bottom-spacer">
-        <p class="site-title    h1">Queer & Gender Affirming Therapy</p>
-        <hr>
-        <p class="site-title    h2">Tiffany Hooton, M.S.<span class="text-small"><br>Associate Marriage & Family Therapist<br>Associate Professional Clinical Counsellor</span></p>
+<header class="banner-main   color-off-white    " id="site-title">
+    <div class="container     ">
+        {{ partial "navigation.html" . }}
+    </div>
+    <div>
+        {{ if .Params.intro.toggle }}
+        {{ with .Params.intro }}
+        <div class="fadeInLeftBig animated      measure ">
+            <p class="h1    ">{{ .Title }}</p>
+            <div class="container    ">
+                {{ .Body | markdownify }}
+                <div class="padding--lg">
+                    <a href="#contact" class="anchor--button--primary">
+                        Contact Me for a Free Consultation 
+                    </a>
+                    <p>
+                        Keep scrolling to learn more
+                    </p>
+                    <i class="fas fa-2x fa-arrow-down"></i>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+        {{ else }}
+        <div class="fadeInLeftBig animated       measure    padding--lg">
+            <p class="h3    ">{{ .Title }}</p>
+            <hr>
+        </div>
+        {{ end }}
     </div>
 </header>

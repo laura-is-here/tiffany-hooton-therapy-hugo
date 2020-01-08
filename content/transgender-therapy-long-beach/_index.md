@@ -41,8 +41,7 @@ summary: |-
   In therapy, I aim to support your exploration of these feelings and provide you with the tools to be the person you need to be.
 menu: 
   main:
-    parent: "services"
-
+    weight: 2
 ---
 ## Questioning your Gender Identity
 

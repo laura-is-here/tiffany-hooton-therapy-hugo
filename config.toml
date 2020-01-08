@@ -4,12 +4,7 @@ title = "Affirming Therapy Long Beach"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 [menu]
 [[menu.main]]
-identifier = "services"
-name = "Services"
-weight = 2
-[[menu.main]]
-parent = "Home"
 identifier = "contact"
 name = "Contact"
 URL = "#contact"
-weight = 5 
+weight = 7 

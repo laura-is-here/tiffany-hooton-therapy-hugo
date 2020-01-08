@@ -1,9 +1,9 @@
 ---
 menu:
   main:
-    parent: Home
     name: About Me
     URL: "/#about-me"
+    weight: 6
 ---
 I am a queer and gender affirming therapist based in Long Beach, CA. After graduating from California State University, Long Beach, with an undergrad degree in sociology, I decided to pursue my Masters of Science in Counseling at California State University, Fullerton. My dual education in sociology and counseling, as well as my own life experiences and identities, have informed my current therapeutic areas of interest and practice with my clients.
 

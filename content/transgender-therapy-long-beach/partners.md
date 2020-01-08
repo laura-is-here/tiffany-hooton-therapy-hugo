@@ -44,8 +44,7 @@ summary: When your partner comes out as transgender, it's easy to believe that t
 menu: 
   main:
     name: Therapy for Trans Partners 
-    parent: "services"
-
+    weight: 3
 ---
 ## Why go to therapy when your partner is trans?
 

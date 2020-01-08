@@ -31,7 +31,7 @@ toggle_card_list_section: false
 summary: This section is under construction. Check back soon for more details!
 menu: 
   main:
-    parent: services
+    weight: 5
 ---
 ## This section is under construction
 

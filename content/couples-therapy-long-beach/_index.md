@@ -34,7 +34,7 @@ summary: |-
   Having anxiety about seeking help in your relationship is normal -- but don't let those fears deter you from finding support when you need it!
 menu: 
   main:
-    parent: services
+    weight: 4
 ---
 _*For ease of reading, the term "couple" will be used to denote "people in an intimate relationship," and is not limited to two people._
 

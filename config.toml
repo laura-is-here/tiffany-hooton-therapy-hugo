@@ -4,27 +4,12 @@ title = "Affirming Therapy Long Beach"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 [menu]
 [[menu.main]]
-identifier = ""
-URL = "/"
-name = "Home"
-weight = 1
-[[menu.main]]
-identifier = "couples-therapy-long-beach"
-URL = "/couples-therapy-long-beach/"
-name = "Couples Therapy"
+identifier = "services"
+name = "Services"
 weight = 2
 [[menu.main]]
-identifier = "self-esteem-therapy-long-beach"
-URL = "/self-esteem-therapy-long-beach/"
-name = "Self Esteem"
-weight = 3
-[[menu.main]]
-identifier = "transgender-therapy-long-beach"
-URL = "/transgender-therapy-long-beach/"
-name = "Gender Therapy"
-weight = 4
-[[menu.main]]
-URL = "#contact"
+parent = "Home"
+identifier = "contact"
 name = "Contact"
-weight = 100 
-[params]
+URL = "#contact"
+weight = 5 

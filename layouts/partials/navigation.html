@@ -1,45 +1,47 @@
-<nav class="navbar    container"  id="navbar">
-    <button id="menu-toggler" class="nav-toggle-icon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-2x fa-bars"></i>
-    </button>
-    <a href="/" class="logo    text-small    text-left    color-primary">
-        <strong>
-        Affirming Therapy<br><em>with Tiffany Hooton</em> 
-        </strong>
-    </a>
+<nav class="navbar    bg-dark-transparent"  id="navbar">
+    <div class="flex-row     padding--sm    container">
+        <a href="/" class="logo    text-small    text-left    color-primary">
+            <strong>
+                Affirming Therapy<br><em>with Tiffany Hooton</em> 
+            </strong>
+        </a>
+        <button id="menu-toggler" class="nav-toggle-icon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-2x fa-bars"></i>
+        </button>
+    </div>
     
     
-    <div class="nav-content" id="navbarSupportedContent">
-        <ul class="nav-links   margin--sm">
+    <div class="nav-content    container   padding--lg" id="navbarSupportedContent">
+        <ul class="nav-links   ">
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
             <li>
+                {{ if .HasChildren }}
+                {{ if .URL }}
                 <a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
                     {{ .Name }}
                 </a>
+                {{ else }}
+                <span class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+                    {{ .Name }}
+                </span>
+                {{ end }}
+                {{ else }}
+                <a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
+                    {{ .Name }}
+                </a>
+                {{ end }}
+                {{ range .Children }}
+                <ul class="list-group    border-left--primary   bg-dark-transparent    margin-x--sm">    
+                    <li class="padding--sm">
+                        <a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                </ul>
+                {{ end }}
             </li>
             {{ end }}
         </ul>
-        <p class="h3">
-            <a href="/" class="no-style-link    ">
-                Affirming Therapy<br><span class="text-small   h4">with Tiffany Hooton</span>
-            </a>
-        </p>
-        {{ if and (ne .Kind "home") (.Pages) }}
-        <div class="bg-dark-transparent   card">
-            <small>
-                more for <strong>{{ .Title }}</strong> 
-            </small>
-            <ul class="nav-links    ">
-                {{ range .Pages }}
-                <li>
-                    <a class="nav-link" href="{{ .RelPermalink }}">
-                        {{ .Title }}
-                    </a>
-                </li>
-                {{ end }}
-            </ul>
-        </div>
-        {{ end }}
     </div>
 </nav>

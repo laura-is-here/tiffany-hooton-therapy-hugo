@@ -2,8 +2,8 @@
 <main>
     
     
-    <section>
-        <h1 class="bg-primary    padding--lg">
+    <article class="">
+        <h1 class="bg-primary   padding--lg">
             {{ .Title }}
         </h1>
         <div class="container">
@@ -31,7 +31,7 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </article>
     
     {{ if .Params.about }}
     {{ partial "about.html" . }}

@@ -39,6 +39,9 @@ summary: |-
   Questioning your gender identity can be a confusing, whirlwind of uncovered emotions or feelings some describe as opening Pandora's box, or it can be a smoldering feeling that's been with you for as long as you can remember, or even both.
 
   In therapy, I aim to support your exploration of these feelings and provide you with the tools to be the person you need to be.
+menu: 
+  main:
+    parent: "services"
 
 ---
 ## Questioning your Gender Identity

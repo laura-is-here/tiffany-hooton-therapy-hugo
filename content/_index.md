@@ -33,7 +33,10 @@ about: true
 contact: true
 toggle_services: true
 toggle_card_list_section: true
-menuName: main
+menu: 
+  main:
+    name: Home
+    weight: 1
 
 ---
 ## What To Expect from Therapy

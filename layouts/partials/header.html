@@ -1,15 +1,13 @@
 <header class="banner-main   color-off-white    " id="site-title">
-    <div class="container     ">
-        {{ partial "navigation.html" . }}
-    </div>
-    <div>
+    {{ partial "navigation.html" . }}
+    <div class="margin-top-spacer">
         {{ if .Params.intro.toggle }}
         {{ with .Params.intro }}
-        <div class="fadeInLeftBig animated      measure ">
-            <p class="h1    ">{{ .Title }}</p>
+        <div class="fadeInLeftBig animated      measure">
             <div class="container    ">
+                <p class="h1    ">{{ .Title }}</p>
                 {{ .Body | markdownify }}
-                <div class="padding--lg">
+                <div class="padding--lg    text-center">
                     <a href="#contact" class="anchor--button--primary">
                         Contact Me for a Free Consultation 
                     </a>
@@ -22,7 +20,7 @@
         </div>
         {{ end }}
         {{ else }}
-        <div class="fadeInLeftBig animated       measure    padding--lg">
+        <div class="fadeInLeftBig animated       ">
             <p class="h3    ">{{ .Title }}</p>
             <hr>
         </div>

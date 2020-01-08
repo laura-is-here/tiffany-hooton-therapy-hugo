@@ -32,7 +32,9 @@ summary: |-
   Going to therapy with your partner(s) can be daunting. Sometimes, people have the idea that couples therapy is a last resort -- a death knell of a dying relationship or sign of failure.
 
   Having anxiety about seeking help in your relationship is normal -- but don't let those fears deter you from finding support when you need it!
-
+menu: 
+  main:
+    parent: services
 ---
 _*For ease of reading, the term "couple" will be used to denote "people in an intimate relationship," and is not limited to two people._
 

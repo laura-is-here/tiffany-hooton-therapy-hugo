@@ -1,5 +1,5 @@
 ---
-title: Therapy to Build Self Esteem
+title: Self Esteem Therapy
 intro:
   toggle: true
   title: More info coming soon!
@@ -29,7 +29,9 @@ about: false
 toggle_services: false
 toggle_card_list_section: false
 summary: This section is under construction. Check back soon for more details!
-
+menu: 
+  main:
+    parent: services
 ---
 ## This section is under construction
 

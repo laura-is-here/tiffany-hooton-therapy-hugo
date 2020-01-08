@@ -284,6 +284,13 @@ h4, .h4 {
     justify-content: center;
 }
 
+.flex-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
@@ -305,51 +312,6 @@ h4, .h4 {
     justify-content: start;
     align-items: start;
     grid-auto-flow: row dense;
-}
-
-.grid-item--1-of-3 {
-    padding: 1px;
-    grid-area: 1 / 1 / 1 / 2;
-    
-    @media #{$mq-large} {
-        grid-area: 1 / 1 / 2 / 2;
-    }
-}
-
-.grid-item--2-of-3 {
-    padding: 1px;
-    grid-area: 2 / 1 / 2 / 2;
-    
-    @media #{$mq-large} {
-        grid-area: 1 / 2 / 2 / 3;
-    }   
-}
-
-.grid-item--3-of-3 {
-    padding: 1px;
-    grid-area: 3 / 1 / 3 / 2;
-    
-    @media #{$mq-large} {
-        grid-area: 1 / 3 / 2 / 4;
-    }
-}
-
-.grid-item--1-of-2 {
-    padding: 1px;
-    grid-area: 1 / 1 / 1 / 2;
-    
-    @media #{$mq-large} {
-        grid-area: 1 / 1 / 2 / 3;
-    }
-}
-
-.grid-item--2-of-2 {
-    padding: 1px;
-    grid-area: 2 / 1 / 2 / 2;
-    
-    @media #{$mq-large} {
-        grid-area: 1 / 3 / 2 / 5;
-    }   
 }
 
 .no-gutters {
@@ -374,7 +336,7 @@ h4, .h4 {
 
 .card {
     padding: 1.5rem;
-    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+    /*box-shadow: 0px 2px 3px rgba(0,0,0,0.3);*/
     overflow-x: auto;
     word-wrap: normal;
     
@@ -385,7 +347,7 @@ h4, .h4 {
 }
 
 .card--image-header {
-    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+    /*box-shadow: 0px 2px 3px rgba(0,0,0,0.3);*/
     overflow-x: auto;
     word-wrap: normal;
     display: flex;
@@ -412,71 +374,6 @@ h4, .h4 {
     padding-top: 0;
 }
 
-.slider {
-    width: 300px;
-    height: 350px;
-    display: flex;
-    flex-flow: row nowrap;
-    overflow-x: auto;
-    margin: 1.5rem auto;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    
-    &__button {
-        border-radius: 50%;
-        background-color: var(--off-white);
-        align-items: center;
-        justify-content: center;
-        width: 1.5rem;
-        height: 1.5rem;
-        margin: 0.25rem 0.25rem 0.75rem;
-        color: $theme-color;
-        display: inline-flex;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: smaller;
-        
-        &:active,
-        &:hover,
-        &:focus {
-            background-color: $accent-color;
-        }
-    }
-    
-    > .card {
-        margin: 0;
-    }
-    
-    @media #{$mq-medium} {
-        width: 600px;
-    }
-}
-
-.slide {
-    position: relative;
-    width: 300px;
-    flex-shrink: 0;
-    height: 100%;
-    scroll-snap-align: start;
-    
-    &__overlay {
-        transition: 0.3s ease-in-out;
-        font-size: smaller;
-        padding: 0.25rem;
-    }
-    
-    &:hover,
-    &:focus {
-        .slide__overlay {
-            opacity: 0; 
-        }
-    } 
-    
-    @media #{$mq-medium} {
-        width: 600px;
-    }
-}
 
 
 
@@ -638,6 +535,10 @@ a, .anchor {
     margin-bottom: 7.5rem;
 }
 
+.margin-x--sm {
+    margin: 0 0.75rem;
+}
+
 .padding--lg {
     padding: 1.5rem;
     
@@ -664,7 +565,7 @@ a, .anchor {
 }
 
 .padding--sm {
-    padding: 0.25rem;
+    padding: 0.75rem;
 }
 
 .padding-bottom--sm {
@@ -690,6 +591,7 @@ a, .anchor {
 .bg-primary {
     background-color: $theme-color;
     color: $accent-color-muted;
+    --link-color: #{$accent-color};
 }
 
 .bg-primary-muted-transparent {
@@ -700,17 +602,27 @@ a, .anchor {
 .bg-light {
     background-color: var(--light);
     color: var(--main-font-color);
+    --link-color: var(--main-font-color);
+    --link-hover-color: #{$accent-color};
 }
 
 .bg-off-white-transparent {
     background-color: var(--off-white-transparent);
     color: var(--main-font-color);
+    --link-color: var(--main-font-color);
+    --link-hover-color: #{$accent-color};
 }
 
 .bg-dark-transparent {
     background-color: hsla(240, 5%, 5%, 0.6%);
     color: var(--off-white);
 }
+
+.bg-dark {
+    background-color: hsla(240, 5%, 5%, 1);
+    color: var(--off-white);
+}
+
 .bg-main {
     background-color: var(--off-white);
 }
@@ -719,17 +631,9 @@ a, .anchor {
     background-color: #ecf0f1dd;
 }
 
-.bg-primary-muted {
-    background-color: $theme-color-muted;
-}
-
 .bg-accent {
     background-color: $accent-color;
     color: var(--off-white);
-}
-
-.bg-primary-light {
-    background-color: var(--light-pink);
 }
 
 .color-off-white {
@@ -756,72 +660,15 @@ a, .anchor {
     color: $theme-color-muted;
 }
 
-.icon-shadow {
-    filter: drop-shadow(0px 1px 2px rgba(20,20,20,0.3));
-}
-
-.top {
-    z-index: 10;
-}
-
 .list-group {
     list-style: none;
     padding: 0;
 }
 
-.list-group-row {
-    display: flex;
-    flex-flow: column;
-    border-top: 4px solid var(--main-color-muted);
-    padding: 0;
-    margin: 0.5em 0;
-    
-    @media #{$mq-large} {
-        flex-flow: row nowrap;
-        margin: 1em 0;
-    }
+.border-left--primary {
+    border-left: 4px solid $theme-color;
 }
 
-.list-group-img {
-    padding: 0;
-    object-fit: cover;
-    margin: 0;
-    flex: 1;
-}
-
-.list-group-body {
-    padding: 0.5rem;
-    flex: 2;
-}
-
-.right {
-    float: right;
-    margin-left: 0.5rem;
-    margin-bottom: 0.5rem;
-    max-width: 8rem;
-    
-    @media #{$mq-large} {
-        max-width: 15rem;
-    }
-}
-
-.border-bottom--primary {
-    border-bottom: 4px solid $theme-color;
-}
-
-.border-bottom--light {
-    border-bottom: 4px solid var(--off-white);
-}
-
-.shadow--sm {
-    box-shadow: 
-    -1px 1px 4px rgba(0, 0, 0, 0.7),
-    3px 3px 8px rgba(0, 0, 0, 0.5);
-}
-
-.shadow-inset--sm {
-    box-shadow: inset 0px 2px 3px rgba(0,0,0,0.3);
-}
 
 
 
@@ -875,9 +722,10 @@ a, .anchor {
 /* ---------------------------- $NAVIGATION */
 
 .navbar {
-    position: relative;
+    position: fixed;
     z-index: 10;
     transition: 0.3s ease-in-out;
+    width: 100%;
 }
 
 .nav-toggle-icon {
@@ -885,78 +733,68 @@ a, .anchor {
 }
 
 .js .nav-toggle-icon {
-    position: absolute;
-    top: 0;
-    right: -1.5rem; 
     display: block;
     text-decoration: none;
     border: none;
-    color: var(--off-white);
+    color: var(--link-color);
     background-color: transparent;
     cursor: pointer;
-    margin: 0.5rem auto;
+    z-index: 10;
     
     &:hover,
     &:active,
     &:focus {
         color: $theme-color;
-    }
-    
-    @media #{$mq-medium} {
-        display: none;
     }
 }
 
 .logo {
-    position: absolute;
-    top: 0;
-    left: -1.5rem; 
     display: block;
+    text-align: left;
     text-decoration: none;
     border: none;
-    color: var(--off-white);
+    color: var(--link-color);
     background-color: transparent;
     cursor: pointer;
-    margin: 0.5rem auto;
     
     &:hover,
     &:active,
     &:focus {
         color: $theme-color;
     }
-    
-    @media #{$mq-medium} {
-        display: none;
-    }
 }
 
 .js .menu-toggle-icon {
-    display: block;
+    display: inline-block;
     text-decoration: none;
     border: none;
     background-color: transparent;
     color: inherit;
     cursor: pointer;
-    margin: 0 auto;
-}
+    margin: 0 1.5rem 0 0;
 
-.js .nav-content {
-    text-align: right;
-    position: relative;
-    top: 2.25rem;
-    right: -1.5rem;
-    display: none;
-    transition: 0.5s ease-in-out;
-    
-    @media #{$mq-medium} {
-        text-align: center;
-        display: block;
-        left: 0;
+    &:hover,
+    &:active {
+        color: var(--link-hover-color);
     }
 }
 
+.js .nav-content {
+    text-align: left;
+    position: relative;
+    top: -3rem;
+    right: 0;
+    display: none;
+    height: 100vh;
+    transition: 0.5s ease-in-out;
+    overflow: auto;
+}
+
 .js .show {
-    display: block
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .nav-links {
@@ -964,21 +802,15 @@ a, .anchor {
     padding: 0;
     
     @media #{$mq-medium} {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
     }
 }
 
-a.nav-link {
+.nav-link {
     --link-color: var(--off-white);
-    text-decoration: none;
-    display: block;
-    padding: 0.25rem 0;
+    display: inline-block;
     position: relative;
-    text-decoration: underline;
-    text-decoration-color: $theme-color;
-    text-decoration-thickness: 5px;
+    padding: 0.75rem 0 0;
+    text-decoration: none;
     
     &:hover,
     &:active,
@@ -990,9 +822,6 @@ a.nav-link {
         font-weight: bold;
     }
 
-    @media #{$mq-medium} {
-        padding: 0 0.75rem;
-    }
 }
 
 

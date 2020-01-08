@@ -4,8 +4,8 @@
         {{ if .Params.intro.toggle }}
         {{ with .Params.intro }}
         <div class="fadeInLeftBig animated      measure">
+            <p class="h1    ">{{ .Title }}</p>
             <div class="container    ">
-                <p class="h1    ">{{ .Title }}</p>
                 {{ .Body | markdownify }}
                 <div class="padding--lg    text-center">
                     <a href="#contact" class="anchor--button--primary">

@@ -32,7 +32,7 @@
                 </a>
                 {{ end }}
                 {{ range .Children }}
-                <ul class="list-group    border-left--primary   bg-dark-transparent    margin-x--sm">    
+                <ul class="list-group    border-left--primary   bg-dark    margin-x--sm">    
                     <li class="padding--sm">
                         <a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
                             {{ .Name }}

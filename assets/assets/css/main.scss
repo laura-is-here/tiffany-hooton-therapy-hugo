@@ -756,6 +756,7 @@ a, .anchor {
     color: var(--link-color);
     background-color: transparent;
     cursor: pointer;
+    z-index: 10;
     
     &:hover,
     &:active,

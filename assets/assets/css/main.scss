@@ -724,22 +724,22 @@ a, .anchor {
 
 /* ---------------------------- $NAVIGATION */
 
-.navbar {
+.nav {
     position: relative;
     top: 0;
     left:0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.75rem;
 }
 
-.js .navbar {
-    position: relative;
-    z-index: 10;
-}
-
-.nav-toggle-icon {
+.nav__toggle {
     display: none;
 }
 
-.js .nav-toggle-icon {
+.nav__toggle {
     display: block;
     text-decoration: none;
     border: none;
@@ -759,7 +759,7 @@ a, .anchor {
     }
 }
 
-.logo {
+.nav__logo {
     display: block;
     text-align: left;
     text-decoration: none;
@@ -776,7 +776,7 @@ a, .anchor {
     }
 }
 
-.js .menu-toggle-icon {
+.menu-toggle-icon {
     display: inline-block;
     text-decoration: none;
     border: none;
@@ -791,32 +791,31 @@ a, .anchor {
     }
 }
 
-.nav-content {
+.nav__content {
     text-align: left;
     position: relative;
     right: 0;
     transition: all 1.5s ease-in-out;
     overflow: auto;
+
+    @media #{$mq-medium} {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-.js .nav-content {
+.nav__content.show {
+    display: block;
     text-align: left;
     position: relative;
-    display: none;
     overflow: auto;
 
     @media #{$mq-medium} {
         display: flex;
         justify-content: center;
         text-align: center;
-    }
-}
-
-.js .show.nav-content {
-    display: block;
-
-    @media #{$mq-medium} {
-        display: inherit;
     }
 }
 

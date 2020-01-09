@@ -1,37 +1,33 @@
-<nav class="navbar    "  id="navbar">
-    <div class="flex-row     padding--sm    container">
-        <a href="/" class="logo    text-small    text-left    color-primary">
-            <strong>
-                Affirming Therapy<br><em>with Tiffany Hooton</em> 
-            </strong>
-        </a>
-        <button id="menu-toggler" class="nav-toggle-icon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-2x fa-bars"></i>
-        </button>
-        
-        <ul class="nav-content    list-group     flex-row">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
+<nav class="nav    "  id="nav">
+    <a href="/" class="nav__logo    text-small    text-left    color-primary">
+        <strong>
+            Affirming Therapy<br><em>with Tiffany Hooton</em> 
+        </strong>
+    </a>
+    
+    <ul class="nav__content    list-group ">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="padding--sm">
+            <a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
+                {{ .Name }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+    <!--
+    <ul class="nav__content    list-group     flex-row">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        {{ range .Children }}
+        <ul class="list-group     flex-row">
             <li class="padding--sm">
                 <a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
                     {{ .Name }}
                 </a>
             </li>
-            {{ end }}
         </ul>
-        <ul class="nav-content    list-group     flex-row">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-            {{ range .Children }}
-            <ul class="list-group     flex-row">
-                <li class="padding--sm">
-                    <a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
-                        {{ .Name }}
-                    </a>
-                </li>
-            </ul>
-            {{ end }}
-            {{ end }}
-        </ul>
-    </div>
+        {{ end }}
+        {{ end }}
+    </ul>-->
 </nav>

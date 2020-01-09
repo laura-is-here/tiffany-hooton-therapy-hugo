@@ -29,19 +29,6 @@ if (document) {(function(){
   
 })()}
 
-/*
-navToggle.addEventListener('click', () => {
-  navContent.classList.toggle('show'); 
-  if (navContent.classList.contains('show')) {
-    navToggleIcon.item(0).classList.replace('fa-bars', 'fa-window-close');
-    navToggle.setAttribute('aria-expanded', 'true');
-  } else {
-    navToggleIcon.item(0).classList.replace('fa-window-close', 'fa-bars');
-    navToggle.setAttribute('aria-expanded', 'false');
-  }
-});
-*/
-
 function animateWhenVisible() {
   var targets = document.querySelectorAll('.animateWhenVisible');
   var intersectionObserverOptions = {

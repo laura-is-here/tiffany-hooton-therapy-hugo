@@ -14,7 +14,7 @@ if (document) {(function(){
   btn.setAttribute('aria-expanded', 'false')
   btn.setAttribute('aria-label', 'show menu')
   btn.innerHTML = `
-  <i class="fas fa-2x fa-bars"></i>
+  <span class="iconify   " data-icon="fa:bars"></span>
   `
   
   btn.addEventListener('click', (e) => {

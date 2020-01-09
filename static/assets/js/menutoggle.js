@@ -1,26 +1,29 @@
-let nav = document.querySelector('.nav');
-let navContent = document.querySelector('.nav__content');
-
-
-navContent.hidden = true;
-
-
-
-const btn = document.createElement("button");
-
-btn.classList.add("nav__toggle");
-btn.setAttribute('aria-expanded', 'false');
-btn.innerHTML = `
-<i class="fas fa-2x fa-bars"></i>
-`
-
-btn.addEventListener('click', (e) => {
-  navContent.classList.toggle('show')  
-}) 
-
-if (nav) {
-  nav.insertBefore(btn, navContent);
-}
+(function(){
+  let nav = document.querySelector('.nav');
+  let navContent = document.querySelector('.nav__content');
+  
+  
+  navContent.hidden = true;
+  
+  
+  
+  const btn = document.createElement("button");
+  
+  btn.classList.add("nav__toggle");
+  btn.setAttribute('aria-expanded', 'false');
+  btn.setAttribute('aria-label', 'show menu');
+  btn.innerHTML = `
+  <i class="fas fa-2x fa-bars"></i>
+  `
+  
+  btn.addEventListener('click', (e) => {
+    navContent.classList.toggle('show')  
+  }) 
+  
+  if (nav) {
+    nav.insertBefore(btn, navContent);
+  }
+})()
 
 /*
 navToggle.addEventListener('click', () => {

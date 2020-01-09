@@ -550,10 +550,11 @@ a, .anchor {
     background-attachment: fixed;
     --link-color: var(--off-white);
     --link-hover-color: #{$theme-color};
-    
-    
 }
 
+.banner-alt.lazy-load {
+    background-image: none;
+}
 
 .banner-alt {
     background-image: 

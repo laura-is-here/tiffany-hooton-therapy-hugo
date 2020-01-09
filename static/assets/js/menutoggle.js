@@ -7,11 +7,12 @@
   
   
   
-  const btn = document.createElement("button");
+  const fragment = document.createDocumentFragment()
+  const btn = document.createElement('button')
   
-  btn.classList.add("nav__toggle");
-  btn.setAttribute('aria-expanded', 'false');
-  btn.setAttribute('aria-label', 'show menu');
+  btn.classList.add('nav__toggle')
+  btn.setAttribute('aria-expanded', 'false')
+  btn.setAttribute('aria-label', 'show menu')
   btn.innerHTML = `
   <i class="fas fa-2x fa-bars"></i>
   `
@@ -21,7 +22,8 @@
   }) 
   
   if (nav) {
-    nav.insertBefore(btn, navContent);
+    fragment.appendChild(btn)
+    nav.insertBefore(fragment, navContent)
   }
 })()
 

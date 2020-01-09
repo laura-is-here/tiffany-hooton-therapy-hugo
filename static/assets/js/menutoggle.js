@@ -1,4 +1,4 @@
-(function(){
+if (document) {(function(){
   let nav = document.querySelector('.nav');
   let navContent = document.querySelector('.nav__content');
   
@@ -25,7 +25,7 @@
     fragment.appendChild(btn)
     nav.insertBefore(fragment, navContent)
   }
-})()
+})()}
 
 /*
 navToggle.addEventListener('click', () => {

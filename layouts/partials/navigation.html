@@ -8,7 +8,7 @@
     <ul class="nav__content    list-group ">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        <li class="padding--sm">
+        <li class="">
             <a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
                 {{ .Name }}
             </a>

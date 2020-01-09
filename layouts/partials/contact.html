@@ -56,7 +56,10 @@
                 </li>
                 <li class="card--image-header    bg-light   text-center    measure">
                     <figure class="card--image-header__img">
-                        <img src="/assets/images/tiff-image.jpg" alt="A photo of Tiffany" width="100%" height="450px"> 
+                        <img data-src="/assets/images/tiff-image.jpg" class="lazy-load" alt="A photo of Tiffany" width="100%" height="450px"> 
+                        <noscript>
+                            <img src="/assets/images/tiff-image.jpg" class="lazy-load" alt="A photo of Tiffany" width="100%" height="450px"> 
+                        </noscript>
                     </figure>
                     <div class="card--image-header__txt">
                         <p>

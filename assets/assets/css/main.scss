@@ -37,25 +37,25 @@ body {
     text-align: center;
     word-wrap: break-word;
     overflow-x: auto;
-    
+
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     flex: 1 0 0;
-    
+
     @media #{$mq-medium} {
         font-size: $base-font-size*1.2;
         line-height: $base-line-height*1.2;
     }
-    
+
     @media #{$mq-large} {
         font-size: $base-font-size*1.3;
     }
-    
+
     @media #{$mq-xlarge} {
         font-size: $base-font-size*1.4;
     }
-    
+
     @media #{$mq-xxlarge} {
         font-size: $base-font-size*1.6;
     }
@@ -87,7 +87,7 @@ input, textarea {
     border: none;
     border-radius: 5px;
     resize: none;
-    
+
     @media #{$mq-medium} {
         margin: 0.75rem;
     }
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6,
     margin: 1.5rem auto 0.5rem;
     font-family: Montserrat;
     font-weight: 400;
-    
+
     &:first-child {
         margin: 3rem auto 0.5rem;
     }
@@ -154,7 +154,7 @@ h1, .h1 {
     text-transform: uppercase;
     text-align: center;
     font-style: normal;
-    
+
     @media #{$mq-medium} {
         font-size: 5.65rem;
     }
@@ -164,7 +164,7 @@ h2, .h2 {
     font-size: 2rem;
     text-align: center;
     text-transform: none;
-    
+
     @media #{$mq-medium} {
         font-size: 4rem;
     }
@@ -173,7 +173,7 @@ h2, .h2 {
 h3, .h3 {
     font-size: 1.41rem;
     text-transform: uppercase;
-    
+
     @media #{$mq-medium} {
         font-size: 2.83rem;
     }
@@ -181,7 +181,7 @@ h3, .h3 {
 
 h4, .h4 {
     font-size: 1rem;
-    
+
     @media #{$mq-medium} {
         font-size: 2rem;
     }
@@ -198,7 +198,7 @@ h4, .h4 {
 
 .full-bleed {
     padding-top: 3rem;
-    
+
     > h1, h2, h3, h4, h5, h6,
     .h1, .h2, .h3, .h4, .h5, .h6 {
         &:first-child {
@@ -215,15 +215,15 @@ h4, .h4 {
 .container {
     margin: 0 4%;
     padding: 0.25rem;
-    
+
     @media #{$mq-medium} {
         margin: 0 8%;
     }
-    
+
     @media #{$mq-large} {
         margin: 0 16%;
     }
-    
+
     @media #{$mq-xlarge} {
         margin: 0 20%;
     }
@@ -250,7 +250,7 @@ h4, .h4 {
     justify-content: start;
     align-items: start;
     grid-auto-flow: row dense;
-    
+
     @media #{$mq-large} {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: 3rem;
@@ -280,11 +280,11 @@ h4, .h4 {
 
 .container-inner {
     margin: 0 4%;
-    
+
     @media #{$mq-large} {
         margin: 0 8%;
     }
-    
+
     @media #{$mq-xlarge} {
         margin: 0 10%;
     }
@@ -299,11 +299,11 @@ h4, .h4 {
     & + .card {
         margin-top: 1.5rem;
     }
-    
+
     @media #{$mq-small} {
         padding: 1.5rem;
         max-width: 55vw;
-    } 
+    }
 }
 
 .card--image-header {
@@ -315,7 +315,7 @@ h4, .h4 {
 
     @media #{$mq-small} {
         max-width: 55vw;
-    } 
+    }
 }
 
 .card--image-header__img {
@@ -325,7 +325,7 @@ h4, .h4 {
     > img {
        object-fit: cover;
        object-position: top;
-       max-width: 100%; 
+       max-width: 100%;
     }
 }
 
@@ -341,11 +341,11 @@ h4, .h4 {
 
 a, .anchor {
     color: var(--link-color);
-    
+
     &:visited {
         color: var(--link-color);
     }
-    
+
     &:hover,
     &:active,
     &:focus {
@@ -362,11 +362,11 @@ a, .anchor {
     background-color: $theme-color;
     color: var(--main-font-color);
     border-radius: 10px;
-    
+
     &:visited {
-        color: var(--main-font-color); 
+        color: var(--main-font-color);
     }
-    
+
     &:hover,
     &:active,
     &:focus {
@@ -377,7 +377,7 @@ a, .anchor {
 
 .anchor--button--primary-muted {
     text-decoration: none;
-    
+
     &:link,
     &:visited {
         text-align: center;
@@ -388,7 +388,7 @@ a, .anchor {
         color: var(--off-white);
         border-radius: 10px;
     }
-    
+
     &:hover,
     &:active,
     &:focus {
@@ -397,18 +397,18 @@ a, .anchor {
 }
 
 .logo {
-    
+
     &:link {
         color: none;
         background-color: initial;
         text-decoration: none;
     }
-    
+
     &:visited {
         background-color: initial;
         color: none;
     }
-    
+
     &:hover,
     &:active,
     &:focus {
@@ -419,7 +419,7 @@ a, .anchor {
 
 .no-style-link {
     text-decoration: none;
-    
+
     &:link,
     &:visited {
         display: inline;
@@ -429,7 +429,7 @@ a, .anchor {
         padding: 0;
         margin: 0;
     }
-    
+
     &:hover,
     &:focus,
     &:active {
@@ -461,16 +461,16 @@ a, .anchor {
 
 .padding--lg {
     padding: 1.5rem;
-    
+
     @media #{$mq-medium} {
         padding: 3rem;
     }
-    
+
 }
 
 .padding-y--lg {
     padding: 1.5rem 0;
-    
+
     @media #{$mq-medium} {
         padding: 3rem 0;
     }
@@ -478,7 +478,7 @@ a, .anchor {
 
 .padding-x--lg {
     padding: 0 1.5rem;
-    
+
     @media #{$mq-medium} {
         padding: 0 3rem;
     }
@@ -494,6 +494,10 @@ a, .anchor {
 
 .text-center {
     text-align: center;
+}
+
+.bg-primary {
+  background-color: $theme-color;
 }
 
 .bg-light {
@@ -540,8 +544,8 @@ a, .anchor {
 
 .banner-main {
     color: var(--off-white);
-    background-color: $theme-color-muted; 
-    background-image: 
+    background-color: $theme-color-muted;
+    background-image:
     linear-gradient(hsla(0, 0%, 0%, 0.4)),
     url($hero-image);
     background-size: cover;
@@ -557,7 +561,7 @@ a, .anchor {
 }
 
 .banner-alt {
-    background-image: 
+    background-image:
     /*linear-gradient(hsla(240, 0%, 0%, 0.65), hsla(240, 0%, 0%, 0.3)),*/
     url($body-image);
     background-position: bottom;
@@ -592,7 +596,7 @@ a, .anchor {
     cursor: pointer;
     z-index: 10;
     font-size: 2rem;
-    
+
     &:hover,
     &:active,
     &:focus {
@@ -613,7 +617,7 @@ a, .anchor {
     background-color: transparent;
     cursor: pointer;
     z-index: 10;
-    
+
     &:hover,
     &:active,
     &:focus {
@@ -661,7 +665,7 @@ a, .anchor {
     position: relative;
     text-decoration: none;
     padding: 0.5rem;
-    
+
     &:hover,
     &:active,
     &:focus {

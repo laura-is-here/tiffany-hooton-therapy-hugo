@@ -3,40 +3,41 @@ title: Couples Therapy
 intro:
   toggle: true
   title: Anxious About Couples* Therapy?
-  body: ''
+  body: ""
 contact: true
 services:
   first:
-    name: ''
-    faIconFirst: ''
-    faIconSecond: ''
-    weight: 
+    name: ""
+    faIconFirst: ""
+    faIconSecond: ""
+    weight:
   second:
-    name: ''
-    faIconFirst: ''
-    faIconSecond: ''
-    weight: 
+    name: ""
+    faIconFirst: ""
+    faIconSecond: ""
+    weight:
   third:
-    name: ''
-    faIconFirst: ''
-    faIconSecond: ''
-    weight: 
+    name: ""
+    faIconFirst: ""
+    faIconSecond: ""
+    weight:
 cardlist:
-  one: ''
-  two: ''
-  three: ''
+  one: ""
+  two: ""
+  three: ""
 about: false
 toggle_services: false
 toggle_card_list_section: false
 summary: |-
   Going to therapy with your partner(s) can be daunting. Sometimes, people have the idea that couples therapy is a last resort -- a death knell of a dying relationship or sign of failure.
 
-  Having anxiety about seeking help in your relationship is normal -- but don't let those fears deter you from finding support when you need it!
-menu: 
+  __Having anxiety about seeking help in your relationship is normal -- but don't let those fears deter you from finding support when you need it!__
+menu:
   main:
     weight: 4
 ---
-_*For ease of reading, the term "couple" will be used to denote "people in an intimate relationship," and is not limited to two people._
+
+_\*For ease of reading, the term "couple" will be used to denote "people in an intimate relationship," and is not limited to two people._
 
 Going to therapy with your partner(s) can be daunting. Sometimes, people have the idea that couples therapy is a last resort -- a death knell of a dying relationship or sign of failure.
 
@@ -62,9 +63,9 @@ Sure, it's chaos -- but it's controlled chaos!
 
 Some areas couples commonly spend time in therapy include, but are not limited to:
 
-* Communication
-* Identifying Patterns of behavior
-* Connecting and building intimacy
+- Communication
+- Identifying Patterns of behavior
+- Connecting and building intimacy
 
 ### Communication
 

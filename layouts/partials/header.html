@@ -1,29 +1,27 @@
 <header class="banner-main   color-off-white    " id="site-title">
-    {{ partial "navigation.html" . }}
-    <div class="">
-        {{ if .Params.intro.toggle }}
-        {{ with .Params.intro }}
-        <div class="fadeInLeftBig animated      measure">
-            <p class="h1    ">{{ .Title }}</p>
-            <div class="container    ">
-                {{ .Body | markdownify }}
-                <div class="padding--lg    text-center">
-                    <a href="#contact" class="anchor--button--primary">
-                        Contact Me for a Free Consultation 
-                    </a>
-                    <p>
-                        Keep scrolling to learn more
-                    </p>
-                    <span class="iconify   icon--large" data-icon="fa:arrow-down"></span>
-                </div>
-            </div>
+  {{ partial "navigation.html" . }}
+  <div class="">
+    {{ if .Params.intro.toggle }} {{ with .Params.intro }}
+    <div class="fadeInLeftBig animated      measure">
+      <div class="container    ">
+        <p class="h1    ">{{ .Title }}</p>
+        {{ .Body | markdownify }}
+        <div class="padding--lg    text-center">
+          <a href="#contact" class="anchor--button--primary">
+            Contact Me for a Free Consultation
+          </a>
+          <p>
+            Keep scrolling to learn more
+          </p>
+          <span class="iconify   icon--large" data-icon="fa:arrow-down"></span>
         </div>
-        {{ end }}
-        {{ else }}
-        <div class="fadeInLeftBig animated       ">
-            <p class="h3    ">{{ .Title }}</p>
-            <hr>
-        </div>
-        {{ end }}
+      </div>
     </div>
+    {{ end }} {{ else }}
+    <div class="fadeInLeftBig animated       ">
+      <p class="h3    ">{{ .Title }}</p>
+      <hr />
+    </div>
+    {{ end }}
+  </div>
 </header>

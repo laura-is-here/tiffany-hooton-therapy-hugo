@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        {{ $title := print .Title " | " .Site.Title }}
-        {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
-        <title>{{ $title }}</title>
-        {{ hugo.Generator }}
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    {{ $title := print .Title " | " .Site.Title }}
+    <!--  -->
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+    {{ hugo.Generator }}
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,400,800&display=swap"
+      rel="stylesheet"
+    />
 
+    {{ $sassTemplate := resources.Get "assets/css/main.scss" }}
+    <!--  -->
+    {{ $sass := $sassTemplate | resources.ExecuteAsTemplate "assets/css/main.scss" . }}
+    <!--  -->
+    {{ $style := $sass | toCSS | postCSS }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+    <meta property="og:title" content="Tiffany Hooton Therapy" />
+    <meta
+      property="og:site_name"
+      content="Tiffany Hooton Therapy | tiffanyhootonmft.com"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/images/tiffscreenshot.png" />
+    <meta property="og:url" content="https://www.tiffanyhootonmft.com" />
+    <meta
+      property="og:description"
+      content="Queer & Gender Affirming Therapy in Long Beach"
+    />
 
-        {{ $sassTemplate := resources.Get "assets/css/main.scss" }}
-        {{ $sass := $sassTemplate | resources.ExecuteAsTemplate "assets/css/main.scss" . }}
-        {{ $style := $sass | toCSS | postCSS }}
-        <link rel="stylesheet" href="{{ $style.Permalink }}">
-        <meta property="og:title"       content="Tiffany Hooton Therapy">
-        <meta property="og:site_name"   content="Tiffany Hooton Therapy | tiffanyhootonmft.com">
-        <meta property="og:type"        content="website">
-        <meta property="og:image"       content="/assets/images/tiffscreenshot.png">
-        <meta property="og:url"         content="https://www.tiffanyhootonmft.com">
-        <meta property="og:description" content="Queer & Gender Affirming Therapy in Long Beach">
+    <link
+      href="/assets/images/tifflogo.png"
+      rel="shortcut icon"
+      type="image/ico"
+    />
+    <link href="{{ .Page.Permalink }}" rel="canonical" />
+  </head>
+  <body>
+    {{ partial "header.html" . }} 
+    
+    {{ block "main" . }}{{ end }} 
 
-        <link href="/assets/images/tifflogo.png" rel="shortcut icon" type="image/ico">
-        <link href="{{ .Page.Permalink }}" rel="canonical">
-    </head>
-    <body>
-        {{ partial "header.html" . }}
-        {{ block "main" . }}{{ end }}
-        {{ partial "footer.html" . }}
-        <script src="/assets/js/menutoggle.js" defer></script>
-        <script src="https://code.iconify.design/1/1.0.3/iconify.min.js" defer></script>
-    </body>
+    {{ partial "footer.html" . }}
+    <script src="/assets/js/menutoggle.js" defer></script>
+    <script
+      src="https://code.iconify.design/1/1.0.3/iconify.min.js"
+      defer
+    ></script>
+  </body>
 </html>

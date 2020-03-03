@@ -3,26 +3,24 @@ function menuToggle() {
   let nav = document.querySelector(".nav");
   let navContent = document.querySelector(".nav__content");
 
-  if (nav && navContent) {
-    navContent.hidden = true;
+  navContent.hidden = true;
 
-    const fragment = document.createDocumentFragment();
-    const btn = document.createElement("button");
+  const fragment = document.createDocumentFragment();
+  const btn = document.createElement("button");
 
-    btn.classList.add("nav__toggle");
-    btn.setAttribute("aria-expanded", "false");
-    btn.setAttribute("aria-label", "show menu");
-    btn.innerHTML = `
+  btn.classList.add("nav__toggle");
+  btn.setAttribute("aria-expanded", "false");
+  btn.setAttribute("aria-label", "show menu");
+  btn.innerHTML = `
     <span class="iconify   " data-icon="fa:bars"></span>
     `;
 
-    btn.addEventListener("click", e => {
-      navContent.classList.toggle("show");
-    });
+  btn.addEventListener("click", e => {
+    navContent.classList.toggle("show");
+  });
 
-    fragment.appendChild(btn);
-    nav.insertBefore(fragment, navContent);
-  }
+  fragment.appendChild(btn);
+  nav.insertBefore(fragment, navContent);
 }
 menuToggle();
 

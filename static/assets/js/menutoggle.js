@@ -3,8 +3,6 @@ function menuToggle() {
   let nav = document.querySelector(".nav");
   let navContent = document.querySelector(".nav__content");
 
-  navContent.hidden = true;
-
   const fragment = document.createDocumentFragment();
   const btn = document.createElement("button");
 

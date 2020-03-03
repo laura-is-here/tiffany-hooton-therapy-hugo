@@ -766,11 +766,13 @@ h3,
   position: relative;
   font-size: 1.728rem;
   text-transform: uppercase;
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: center; }
 
 h4,
 .h4 {
-  font-size: 1.44rem; }
+  font-size: 1.44rem;
+  text-align: center; }
 
 .card > h1:first-child,
 .card h2:first-child,

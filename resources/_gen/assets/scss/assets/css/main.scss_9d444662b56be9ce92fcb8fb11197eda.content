@@ -1069,6 +1069,7 @@ a,
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  min-height: 100vh;
   --link-color: var(--off-white);
   --link-hover-color: #ffd4e4; }
 

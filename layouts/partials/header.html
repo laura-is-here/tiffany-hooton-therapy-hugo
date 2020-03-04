@@ -2,7 +2,7 @@
   {{ partial "navigation.html" . }}
   <div class="">
     {{ if .Params.intro.toggle }} {{ with .Params.intro }}
-    <div class="fadeInLeftBig animated      measure">
+    <div class="measure">
       <div class="container    ">
         <p class="h1    ">{{ .Title }}</p>
         {{ .Body | markdownify }}

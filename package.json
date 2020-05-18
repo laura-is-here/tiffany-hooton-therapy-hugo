@@ -4,7 +4,7 @@
   "description": "The website for Tiffany Hooton's therapy practice.",
   "main": "index.js",
   "dependencies": {
-    "autoprefixer": "^9.7.3"
+    "autoprefixer": "^9.8.0"
   },
   "browserslist": [
     "defaults"

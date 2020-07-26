@@ -766,11 +766,13 @@ h3,
   position: relative;
   font-size: 1.728rem;
   text-transform: uppercase;
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: center; }
 
 h4,
 .h4 {
-  font-size: 1.44rem; }
+  font-size: 1.44rem;
+  text-align: center; }
 
 .card > h1:first-child,
 .card h2:first-child,
@@ -1060,13 +1062,13 @@ a,
 /* ---------------------------------- $HEADER */
 .banner-main {
   color: var(--off-white);
-  background-color: #f87eaa;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("/assets/images/screen-1.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("/assets/images/screen-1.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("/assets/images/mountains.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("/assets/images/mountains.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  min-height: 100vh;
   --link-color: var(--off-white);
   --link-hover-color: #ffd4e4; }
 

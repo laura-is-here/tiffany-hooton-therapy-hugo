@@ -566,12 +566,12 @@ a,
 
 .banner-main {
   color: var(--off-white);
-  background-color: $theme-color-muted;
   background-image: linear-gradient(hsla(0, 0%, 0%, 0.4)), url($hero-image);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  min-height: 100vh;
   --link-color: var(--off-white);
   --link-hover-color: #{$theme-color};
 }

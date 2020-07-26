@@ -39,7 +39,9 @@ menu:
   main:
     name: Home
     weight: 1
----## What To Expect from Therapy
+---
+
+## What To Expect from Therapy
 
 My approach to therapy is _humanistic, gender-affirming_, and incorporates elements of _cognitive_ and _narrative therapy_ to challenge ways of thinking and internalized messages which negatively affect our views of ourselves, others, and our world.
 

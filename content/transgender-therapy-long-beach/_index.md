@@ -58,14 +58,11 @@ If you are trans, non-binary, or gender non-conforming, odds are that you've str
 
 I strongly believe in addressing marginalization during gender therapy in order to support your ability to confront and shine in a world that can be hostile to your existence, and I have a passion for challenging these societal issues outside of therapy in my personal life and the world at large.
 
-## HRT and Surgery Letters
-
-I cannot provide letters for surgery and/or hormone replacement therapy at this time due to my status as an Associate. However, I am happy to refer individuals seeking these letters to the appropriate places.
+<!-- ## HRT and Surgery Letters
 
 The following Long Beach resources for trans individuals may be helpful if you are seeking letters:
 
-- [Monica Provence](https://www.therapyden.com/therapist/monica-provence-long-beach-ca), LGBT affirming therapist (and my supervisor)
 - [Prospect Therapy](https://www.prospecttherapy.com/hrt-and-gcs-letters), local LGBT affirming therapy practice
 - [The Long Beach LGBT Center](https://centerlb.org)
 
-I only recommend trusted colleagues who agree that **gatekeeping sucks.**
+I only recommend trusted colleagues who agree that **gatekeeping sucks.** -->

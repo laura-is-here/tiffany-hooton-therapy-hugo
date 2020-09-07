@@ -1,6 +1,10 @@
-<div id="contact" class="text-left    ">
-  <h2 class="h1    bg-primary    padding--lg">Contact Me</h2>
-  <form
+<div id="contact" class="text-center ">
+	<h2 class="h1    bg-primary    padding--lg">Contact Me</h2>
+	<div class="container">
+		<p>To contact me, please visit <a href="https://www.prospecttherapy.com/meet-tiffany">my profile at Prospect
+				Therapy</a></p>
+	</div>
+	{{/*  <form
     class="container    padding-x--lg"
     action="https://formspree.io/tiffanyhootontherapy@protonmail.com"
     method="POST"
@@ -65,104 +69,78 @@
           Office:
           <a
             href="{{ .Site.Data.settings.addressLink }}"
-            rel="noreferrer noopener"
-            target="_blank"
-            class="anchor"
-          >
-            {{ .Site.Data.settings.address }} </a
-          ><br />
-          <small>
-            <em>
-              Located in Downtown Long Beach and easily accessible by public
-              transportation. Unfortunately, the office currently requires
-              climbing stairs to access.
-            </em>
-          </small>
-        </p>
-        <p>
-          Phone:
-          <a href="tel:{{ .Site.Data.settings.phone }}" class="anchor">
-            {{ .Site.Data.settings.phone }}
-          </a>
-        </p>
-        <p>
-          Email:
-          <a class="anchor" href="mailto:{{ .Site.Data.settings.email }}">
-            {{ .Site.Data.settings.email }}
-          </a>
-        </p>
-      </li>
-      <li class="card--image-header    bg-light   text-center    measure">
-        <figure class="card--image-header__img">
-          <img
-            data-src="/assets/images/tiff-image.jpg"
-            class="lazy-load"
-            alt="A photo of Tiffany"
-            width="100%"
-            height="450px"
-          />
-          <noscript>
-            <img
-              src="/assets/images/tiff-image.jpg"
-              class="lazy-load"
-              alt="A photo of Tiffany"
-              width="100%"
-              height="450px"
-            />
-          </noscript>
-        </figure>
-        <div class="card--image-header__txt">
-          <p>
-            Thanks for visiting my site! You don't have to go it alone. If
-            you're struggling, reach out.
-          </p>
-          <p>
-            And, most importantly,<br />
-            <span class="h2">
-              breathe
-            </span>
-          </p>
-          <!-- Professional verification provided by Psychology Today -->
-          <div class="flex-column">
-            <a
-              href="https://www.psychologytoday.com/profile/703413"
-              target="_blank"
-              rel="noopener   noreferer"
-              class="sx-verified-seal"
-            ></a>
-            <script
-              type="text/javascript"
-              src="https://member.psychologytoday.com/verified-seal.js"
-              data-badge="11"
-              data-id="703413"
-              data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="
-              defer
-            ></script>
-            <!-- End Verification -->
-            <small
-              >Click the logo
-              <span class="iconify" data-icon="fa:arrow-up"></span> to view my
-              profile</small
-            >
-          </div>
-        </div>
-      </li>
-      <li class="bg-light    padding-x--lg">
-        <h3>Associate Registration & Supervision</h3>
-        <p>
-          AMFT #115397 | APCC #6793
-        </p>
-        <p>
-          Under the supervision of
-          <a
-            href="https://www.therapyden.com/therapist/monica-provence-long-beach-ca"
-            rel="noopener noreferrer"
-            target="_blank"
-            class="anchor"
-            >Monica Provence</a
-          >, LMFT #87245
-        </p>
-      </li>
-    </ul>
-  </div>
+	rel="noreferrer noopener"
+	target="_blank"
+	class="anchor"
+	>
+	{{ .Site.Data.settings.address }} </a><br />
+	<small>
+		<em>
+			Located in Downtown Long Beach and easily accessible by public
+			transportation. Unfortunately, the office currently requires
+			climbing stairs to access.
+		</em>
+	</small>
+	</p>
+	<p>
+		Phone:
+		<a href="tel:{{ .Site.Data.settings.phone }}" class="anchor">
+			{{ .Site.Data.settings.phone }}
+		</a>
+	</p>
+	<p>
+		Email:
+		<a class="anchor" href="mailto:{{ .Site.Data.settings.email }}">
+			{{ .Site.Data.settings.email }}
+		</a>
+	</p>
+	</li>
+	<li class="card--image-header    bg-light   text-center    measure">
+		<figure class="card--image-header__img">
+			<img data-src="/assets/images/tiff-image.jpg" class="lazy-load" alt="A photo of Tiffany" width="100%"
+				height="450px" />
+			<noscript>
+				<img src="/assets/images/tiff-image.jpg" class="lazy-load" alt="A photo of Tiffany" width="100%"
+					height="450px" />
+			</noscript>
+		</figure>
+		<div class="card--image-header__txt">
+			<p>
+				Thanks for visiting my site! You don't have to go it alone. If
+				you're struggling, reach out.
+			</p>
+			<p>
+				And, most importantly,<br />
+				<span class="h2">
+					breathe
+				</span>
+			</p>
+			<!-- Professional verification provided by Psychology Today -->
+			<div class="flex-column">
+				<a href="https://www.psychologytoday.com/profile/703413" target="_blank" rel="noopener   noreferer"
+					class="sx-verified-seal"></a>
+				<script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="11"
+					data-id="703413"
+					data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="
+					defer></script>
+				<!-- End Verification -->
+				<small>Click the logo
+					<span class="iconify" data-icon="fa:arrow-up"></span> to view my
+					profile</small>
+			</div>
+		</div>
+	</li>
+	<li class="bg-light    padding-x--lg">
+		<h3>Associate Registration & Supervision</h3>
+		<p>
+			AMFT #115397 | APCC #6793
+		</p>
+		<p>
+			Under the supervision of
+			<a href="https://www.therapyden.com/therapist/monica-provence-long-beach-ca" rel="noopener noreferrer"
+				target="_blank" class="anchor">Monica Provence</a>, LMFT #87245
+		</p>
+	</li>
+	</ul>
+</div> */}}
 </div>

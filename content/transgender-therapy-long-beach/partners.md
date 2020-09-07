@@ -9,50 +9,50 @@ intro:
 
     **Partner Perspectives** is a process group where partners of trans people can discuss their feelings, collect their thoughts, and connect with peers in a safe, confidential space.
 
-    _Starts January 2020. More information coming soon._
-
-    Please contact me for more information.
   toggle: true
 contact: true
 services:
   first:
-    name: ''
-    faIconFirst: ''
-    faIconSecond: ''
-    weight: 
+    name: ""
+    faIconFirst: ""
+    faIconSecond: ""
+    weight:
   second:
-    name: ''
-    faIconFirst: ''
-    faIconSecond: ''
-    weight: 
+    name: ""
+    faIconFirst: ""
+    faIconSecond: ""
+    weight:
   third:
-    name: ''
-    faIconFirst: ''
-    faIconSecond: ''
-    weight: 
+    name: ""
+    faIconFirst: ""
+    faIconSecond: ""
+    weight:
 cardlist:
-  one: ''
-  two: ''
-  three: ''
+  one: ""
+  two: ""
+  three: ""
 about: false
 toggle_services: false
 toggle_card_list_section: false
-summary: When your partner comes out as transgender, it's easy to believe that they
+summary:
+  When your partner comes out as transgender, it's easy to believe that they
   are the one who needs therapy; however, transition can be a huge shift in the dynamic
   of your relationship. As a partner of a trans person there are many steps you can
   take to best support your trans partner and, of course, yourself!
-menu: 
+menu:
   main:
-    name: Therapy for Trans Partners 
+    name: Therapy for Trans Partners
     weight: 3
+draft: true
 ---
+
 ## Why go to therapy when your partner is trans?
 
 When your partner comes out as transgender, it's easy to believe that _they_ are the one who needs therapy; however, transition can be a huge shift in the dynamic of your relationship. As a partner of a trans person there are many steps you can take to best support your trans partner and, of course, yourself!
 
 ### Build Community with Others Navigating a Partner's Gender Transition
 
-Wondering what to do when your partner comes out as trans? You're not the only one! There are entire forums dedicated to this question, and for good reason —  there is no one-size-fits-all answer.
+Wondering what to do when your partner comes out as trans? You're not the only one! There are entire forums dedicated to this question, and for good reason — there is no one-size-fits-all answer.
 
 Other partners of trans people have had to answer many of the same questions you likely now have. While there is no single answer, others who have been through these transitions are uniquely positioned to help you as you process the feelings that arise in the wake of your partner's transition.
 

@@ -51,6 +51,4 @@ My specialty areas include working with queer, trans, and nonbinary individuals 
 
 ### Fees
 
-My full fee is $100 per 50-minute session - HOWEVER in order to help make therapy more accessible, I do offer a sliding scale starting at $60 for those with limited resources.
-
-_While I wish to make my services as accessible as possible, as an Associate therapist I am unable to accept insurance at this time._
+For information on fees, please visit [my profile at Prospect Therapy and contact me](https://www.prospecttherapy.com/meet-tiffany).

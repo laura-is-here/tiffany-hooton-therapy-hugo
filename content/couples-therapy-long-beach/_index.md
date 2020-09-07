@@ -85,7 +85,7 @@ Another common area of intervention in couples therapy is increasing intimacy in
 
 First, it is crucial to recognize that intimacy has a multitude of meanings. It spans all levels of connection with your partner, and a person's intimacy needs can vary greatly. Couples therapy can be a place for partners to explore one's relationship to sex, sensuality, romance, and emotional connection; discover new ways to connect; develop a sense of compassion for your partner(s) to deepen feelings of love and trust.
 
-## LGBTQ+, Polyamourous, and Kink Couples
+## LGBTQ+, Polyamorous, and Kink Couples
 
 Not all couples look the same. And, certainly, not all couples conform to the standards set by our cis- and heteronormative, monogamous, and vanilla-sex-having society.
 

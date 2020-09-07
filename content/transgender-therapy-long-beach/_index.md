@@ -7,9 +7,6 @@ intro:
 
     Gender therapy is aimed at assisting individuals who are trans, non-binary, or otherwise questioning or struggling with their gender identity.
 
-    **Are you the partner of a trans person?**
-
-    [Read more about **Partner Perspectives**, an open therapy group for partners of transgender individuals.](/transgender-therapy-long-beach/partners)
   toggle: true
 contact: true
 services:

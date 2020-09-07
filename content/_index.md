@@ -17,9 +17,11 @@ services:
     faIconSecond: fa-transgender-alt
     weight: 3
 cardlist:
-  one: A queer or trans person looking for support exploring identity or processing
+  one:
+    A queer or trans person looking for support exploring identity or processing
     stress, trauma, or life changes.
-  two: A transgender person, partner of a transgender person, or couple navigating
+  two:
+    A transgender person, partner of a transgender person, or couple navigating
     the transition process.
   three: A queer or trans couple experiencing relational issues.
 intro:
@@ -38,8 +40,8 @@ menu:
   main:
     name: Home
     weight: 1
-
 ---
+
 ## What To Expect from Therapy
 
 My approach to therapy is _humanistic, gender-affirming_, and incorporates elements of _cognitive_ and _narrative therapy_ to challenge ways of thinking and internalized messages which negatively impact our views of ourselves, others, and our world.
@@ -50,10 +52,4 @@ Finally, I strive to serve people of all ethnic, racial, and class backgrounds w
 
 ### Fees
 
-<<<<<<< HEAD
 For information on fees, please visit [my profile at Prospect Therapy and contact me](https://www.prospecttherapy.com/meet-tiffany).
-=======
-My full fee is $100 per 50-minute session - HOWEVER, in order to help make therapy more accessible, I do offer a sliding scale starting for those with limited resources. If you require a lower fee,  I will try my best to accommodate your needs or link you to an alternate provider who can.
-
-_While I wish to make my services as accessible as possible, I am unable to accept insurance at this time._
->>>>>>> 6c4a65adddb0078f5f15f32638026c6af45a4d2a

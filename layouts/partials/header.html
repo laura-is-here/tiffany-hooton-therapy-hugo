@@ -1,28 +1,28 @@
 <img src="/assets/images/mountains.jpg" style="display: none;" />
 <header class="banner-main   color-off-white    " id="site-title">
-  {{ partial "navigation.html" . }}
-  <div class="">
-    {{ if .Params.intro.toggle }} {{ with .Params.intro }}
-    <div class="measure">
-      <div class="container    ">
-        <p class="h1    ">{{ .Title }}</p>
-        {{ .Body | markdownify }}
-        <div class="padding--lg    text-center">
-          <a href="#contact" class="anchor--button--primary">
-            Contact Me for a Free Consultation
-          </a>
-          <p>
-            Keep scrolling to learn more
-          </p>
-          <span class="iconify   icon--large" data-icon="fa:arrow-down"></span>
-        </div>
-      </div>
-    </div>
-    {{ end }} {{ else }}
-    <div class="fadeInLeftBig animated       ">
-      <p class="h3    ">{{ .Title }}</p>
-      <hr />
-    </div>
-    {{ end }}
-  </div>
+	{{ partial "navigation.html" . }}
+	<div class="">
+		{{ if .Params.intro.toggle }} {{ with .Params.intro }}
+		<div class="measure">
+			<div class="container    ">
+				<p class="h1    ">{{ .Title }}</p>
+				{{ .Body | markdownify }}
+				<div class="padding--lg    text-center">
+					<a href="#contact" class="anchor--button--primary">
+						Contact Me for a Free Consultation
+					</a>
+					<p>
+						Keep scrolling to learn more
+					</p>
+					<span class="iconify   icon--large" data-icon="fa:arrow-down"></span>
+				</div>
+			</div>
+		</div>
+		{{ end }} {{ else }}
+		<div class="fadeInLeftBig animated       container">
+			<p class="h3    ">{{ .Title }}</p>
+			<hr />
+		</div>
+		{{ end }}
+	</div>
 </header>
